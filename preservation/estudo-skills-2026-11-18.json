@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-18",
+  "units": [
+    {
+      "skill": "repo-diagnostics",
+      "source": "/Users/sharbocasagrande/.codex/skills/repo-diagnostics/SKILL.md",
+      "sha256": "0efde468d6e0460ef0f0ec57e3056652f353b5742fea3189c9b5791e10b19f53",
+      "coverage": "SKILL integral; diagnóstico de estrutura, entradas, scripts e dependências. Referência opcional de cartografia não necessária.",
+      "date": "2026-11-18"
+    },
+    {
+      "skill": "google-drive 0.1.26",
+      "source": "/Users/sharbocasagrande/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.26/skills/google-drive/SKILL.md",
+      "sha256": "4ccaa253d8c698cb2126e1f96b506db2df222a00b88da29ae577c08524df1f86",
+      "coverage": "SKILL integral; backup de arquivo ZIP e verificação de metadados/hash. Nenhuma edição de Docs/Sheets/Slides.",
+      "date": "2026-11-18"
+    },
+    {
+      "source": "branding-isc no commit dfe8806f801172a59809f0204bfa9f8f7acc4094",
+      "coverage": "SKILL.md integral como fonte do artefato; autocontido.py e tools/empacotar_skill.py integrais; entradas HTML, CSS de fontes e referências de distribuição. O conteúdo editorial foi copiado e comparado, sem revisão clínica/regulatória. Não se declara novo estudo integral das 24 seções como método clínico.",
+      "selection": "A tarefa é preservar e hospedar uma cópia; repo-diagnostics é a skill de execução. Branding é artefato de origem, com conteúdo e créditos preservados."
+    }
+  ],
+  "limits": "Identidade por hash e comparação de bytes não certificam eficácia clínica, validade de regras editoriais ou segurança absoluta da hospedagem."
+}
