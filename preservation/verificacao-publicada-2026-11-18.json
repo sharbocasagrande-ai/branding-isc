@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-18",
+  "owner": "SHARBO CASAGRANDE",
+  "repository": "sharbocasagrande-ai/branding-isc",
+  "site": "https://sharbocasagrande-ai.github.io/branding-isc/",
+  "manual": "https://sharbocasagrande-ai.github.io/branding-isc/brand-book.html",
+  "published_content_commit": "27fc46689e973bda5a913f04734eb1c5d59940ea",
+  "published_content_tree": "8c90c6ce75bbcd708e83818882069f328386a79e",
+  "original_commit": "dfe8806f801172a59809f0204bfa9f8f7acc4094",
+  "original_tree": "1820555c78feff9f82468ba408e5127137f40742",
+  "original_tag": "original-rafael-2026-11-18",
+  "original_files": 357,
+  "prepared_files": 369,
+  "remote_blob_inventory_verified": true,
+  "owner_permissions": {
+    "admin": true,
+    "maintain": true,
+    "push": true,
+    "triage": true,
+    "pull": true
+  },
+  "rafael_permission": "read",
+  "pages": {
+    "status": "built",
+    "https_enforced": true,
+    "source": {
+      "branch": "main",
+      "path": "/"
+    }
+  },
+  "body_exact": [
+    "brand-book.html",
+    "deck-template.html",
+    "lockup.html"
+  ],
+  "local_validation": {
+    "sections": 24,
+    "images": 296,
+    "brokenImages": 0,
+    "pageErrors": 0,
+    "externalRequests": 0,
+    "desktopViewport": [
+      1440,
+      1000
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopCoverPixelsIdentical": true
+  },
+  "live_file_checks": [
+    {
+      "path": "brand-book.html",
+      "status": 200,
+      "bytes": 1418874,
+      "sha256": "98e4fa0c8519587cadd70bdd5258c2802c8d5463245466b1df189efb3bb8336f",
+      "equals_local": true,
+      "url": "https://sharbocasagrande-ai.github.io/branding-isc/brand-book.html"
+    },
+    {
+      "path": "assets/fontes/isc-fontes.css",
+      "status": 200,
+      "bytes": 812173,
+      "sha256": "dd6db86dcbd51f307055e648681e77ba075aa052075b56d45a4e248bdd36f7ce",
+      "equals_local": true,
+      "url": "https://sharbocasagrande-ai.github.io/branding-isc/assets/fontes/isc-fontes.css"
+    },
+    {
+      "path": "downloads/branding-isc.zip",
+      "status": 200,
+      "bytes": 6701846,
+      "sha256": "085b5fc9768445809ba08220bbd53ff11a961461d7b2e1c1fbf266939e9524c8",
+      "equals_local": true,
+      "url": "https://sharbocasagrande-ai.github.io/branding-isc/downloads/branding-isc.zip"
+    },
+    {
+      "path": "assets/referencia-original/isc-instituto-oficial.cdr",
+      "status": 200,
+      "bytes": 689269,
+      "sha256": "e35d5da6d0009af9e7c7a9be54e15b792763b8463460c20840583a8a23041034",
+      "equals_local": true,
+      "url": "https://sharbocasagrande-ai.github.io/branding-isc/assets/referencia-original/isc-instituto-oficial.cdr"
+    },
+    {
+      "path": "assets/referencia-original/isc-instituto-oficial.pdf",
+      "status": 200,
+      "bytes": 423145,
+      "sha256": "dce992669a6d3ec0c67a2169f92d5b8f6f51cb3c36170a6020df4b3137f17846",
+      "equals_local": true,
+      "url": "https://sharbocasagrande-ai.github.io/branding-isc/assets/referencia-original/isc-instituto-oficial.pdf"
+    }
+  ],
+  "qa_backup": {
+    "display_url": "https://drive.google.com/file/d/1zagKtFZU6jLkCkLfd6LtI6QBqQsvSfOI/view?usp=drivesdk",
+    "id": "1zagKtFZU6jLkCkLfd6LtI6QBqQsvSfOI",
+    "link_label": "View File in Google Drive",
+    "mimeType": "application/zip",
+    "name": "ISC_Branding_Conferencia_2026-11-18.zip",
+    "parents": [
+      "1CqgU5hxk99OpibECP55Q7gE-Keh1Xgq7"
+    ],
+    "sha256Checksum": "2f4aef05d1b473ecbb7df9504e9e8f5c136b2189f08e99354d7ed03008e53d06",
+    "shared": false,
+    "size": "1303191",
+    "version": "2",
+    "webViewLink": "https://drive.google.com/file/d/1zagKtFZU6jLkCkLfd6LtI6QBqQsvSfOI/view?usp=drivesdk"
+  },
+  "browser": {
+    "agentVisibleTabsOpened": 0,
+    "headlessClosed": true,
+    "userTabPreserved": true
+  },
+  "limits": "A reprodução preserva o original e o conteúdo visual. Controle operacional na conta do titular; hospedagem continua sujeita ao GitHub. Não houve revisão clínica nem alteração das regras editoriais."
+}
