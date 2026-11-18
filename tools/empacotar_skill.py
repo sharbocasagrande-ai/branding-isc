@@ -27,7 +27,7 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 NOME = "branding-isc"
-PAGES = "https://rafaelnasch.github.io/branding-isc/"
+PAGES = "https://sharbocasagrande-ai.github.io/branding-isc/"
 SAIDA = RAIZ / "dist-skill" / f"{NOME}.zip"
 MB = 1024 * 1024
 LIM_ZIP, LIM_SOMA, LIM_ARQ, LIM_N, META_ZIP = 30 * MB, 25 * MB, 10 * MB, 400, 10 * MB
@@ -47,7 +47,7 @@ def lista():
         if n.endswith(".svg") or n.endswith("-web.png") or n.startswith(("isc-favicon", "isc-avatar", "isc-compartilhamento")):
             arqs.append(str(p.relative_to(RAIZ)))
     for pasta, padrao in (("fotos", "*.jpg"), ("formas", "*.svg"), ("graficos", "*.svg"), ("destaques", "*"),
-                          ("grades", "*.png"), ("icones", "*.svg"), ("fontes", "*.woff2"), ("fontes", "*.css")):
+                          ("grades", "*.png"), ("icones", "*.svg"), ("fontes", "*.woff2"), ("fontes", "*.css"), ("fontes", "*.txt")):
         arqs += sorted(str(p.relative_to(RAIZ)) for p in (a / pasta).glob(padrao) if p.is_file())
     # a foto de referência com o letreiro antigo nunca entra (lei 4: letreiro antigo fora do quadro)
     arqs = [x for x in arqs if "letreiro-antigo" not in x]

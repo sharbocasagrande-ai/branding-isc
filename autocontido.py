@@ -108,6 +108,12 @@ def data_uri(caminho):
 
 def autocontido(origem, destino):
     html = open(origem, encoding="utf-8").read()
+    # Fonte local da cópia ISC: mantém a exportação independente da rede.
+    local_link = '<link href="assets/fontes/isc-fontes.css" rel="stylesheet">'
+    if local_link in html:
+        local_css = open(os.path.join(FONTES, "isc-fontes.css"), encoding="utf-8").read()
+        html = html.replace(local_link, "")
+        html = html.replace("<style>", "<style>\n" + local_css, 1)
     # 0. fontes do Google embutidas na própria <style> (continua uma <style> só)
     link = RE_LINK_FONTES.search(html)
     if link:

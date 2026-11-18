@@ -1,0 +1,2509 @@
+{
+  "date": "2026-11-18",
+  "source_repository": "rafaelnasch/branding-isc",
+  "owner_repository": "sharbocasagrande-ai/branding-isc",
+  "original_commit": "dfe8806f801172a59809f0204bfa9f8f7acc4094",
+  "original_tree": "1820555c78feff9f82468ba408e5127137f40742",
+  "original_files": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "git_blob": "e8d1fac26a367018ec29487c7b05984a3ca0b2d7",
+      "sha256": "6676518a4b4feee1d14c5786d86f8ce02f2a751314192768a50ad8e0ff4b19e2",
+      "bytes": 84
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "git_blob": "8a6d8829c586a89d17b8db9bec3ee1244e823e26",
+      "sha256": "a33412b9e31f00f9aeabfa7220f63ad436825bd1d6a793c332f215590167c7b2",
+      "bytes": 23434
+    },
+    {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob": "6fa9451a5f58e6e94147d829a491b7888ec27603",
+      "sha256": "34bf5376fb23593e7da5e5161d59d87a810f912890555fb56e63b44c537216d1",
+      "bytes": 34289
+    },
+    {
+      "path": "agents/openai.yaml",
+      "mode": "100644",
+      "git_blob": "0379e67b48c26e11405431742756cb6727df0486",
+      "sha256": "22efb7c6624d864b9c9b2f281f32372890eacb07ae10c4ffafea16b45fb04574",
+      "bytes": 725
+    },
+    {
+      "path": "assets/capturas/celular-capa-320.jpg",
+      "mode": "100644",
+      "git_blob": "28ccfe340fafec7dcb2a86736c8089c67c54bb49",
+      "sha256": "92b5c2953d036f61289d941da4b3b63e1b2abccbd83e698deeb700224757f4cc",
+      "bytes": 77671
+    },
+    {
+      "path": "assets/capturas/celular-capa-390.jpg",
+      "mode": "100644",
+      "git_blob": "f55f36acb2c7c51f2c08b0003ba3940568c09f75",
+      "sha256": "a006b7fc38f051c5b1197facfda76811369f7665a4a666bae223768c69707c2d",
+      "bytes": 91172
+    },
+    {
+      "path": "assets/capturas/celular-capa-430.jpg",
+      "mode": "100644",
+      "git_blob": "a746c4b097d4ef8b13633b6dc15e6ee41ced0c90",
+      "sha256": "17b1a559114bb3c869bde52617ed64973bb48f91e4bb7e0ace4fae3d8c25cf5f",
+      "bytes": 114195
+    },
+    {
+      "path": "assets/capturas/tipografia-cormorant-acentos.png",
+      "mode": "100644",
+      "git_blob": "e0843ca86924cabdba2c644c69f3156dd26ecb77",
+      "sha256": "8a2a21bf46b515afcc1b49a625ed22d11d906cc87d66ef25fb0fe044e34364e3",
+      "bytes": 18463
+    },
+    {
+      "path": "assets/capturas/tipografia-playfair-display.png",
+      "mode": "100644",
+      "git_blob": "b8fc8c03d7e3e8c6aabd7036bbef8ed879540ff1",
+      "sha256": "2c62b6da779303c78fd3d655114324af9ed326e7bd897e6ebd40997617985793",
+      "bytes": 19377
+    },
+    {
+      "path": "assets/destaques/isc-destaque-consulta.png",
+      "mode": "100644",
+      "git_blob": "102e1438949e3146b4f230caff553a40b16b76c5",
+      "sha256": "d92aed4651d720260c579ef3816f5018a1ad1b61c1a427d115ef8ce72ee8fbce",
+      "bytes": 334345
+    },
+    {
+      "path": "assets/destaques/isc-destaque-consulta.svg",
+      "mode": "100644",
+      "git_blob": "db02e3e1232b9569b61fa35a93554398a33625ea",
+      "sha256": "e3f1c9bc9637b2c9f712b987eeae1e19d0f134ed13b75052bba075a3877da9a6",
+      "bytes": 1552
+    },
+    {
+      "path": "assets/destaques/isc-destaque-duvidas.png",
+      "mode": "100644",
+      "git_blob": "21385ed8cd5a690aeee06ae69e8cc710a897b8bd",
+      "sha256": "4fa0c2276fbd2f0e54165cbb9a4c690d310af1dde04dc18df93a051451752625",
+      "bytes": 325338
+    },
+    {
+      "path": "assets/destaques/isc-destaque-duvidas.svg",
+      "mode": "100644",
+      "git_blob": "1a2de375aa7c1e2818925fcf278739b3bd7773cc",
+      "sha256": "4009723226794c6445dd595dd2622af337ae544d1a295fea511a38d50547ced8",
+      "bytes": 1481
+    },
+    {
+      "path": "assets/destaques/isc-destaque-equipe.png",
+      "mode": "100644",
+      "git_blob": "313557c063c1170cf363992ac9b59bf9d089b82d",
+      "sha256": "c863b3328e74f6edd670a4368d6ac3097865b58192dccd60efce1c64a809132d",
+      "bytes": 329967
+    },
+    {
+      "path": "assets/destaques/isc-destaque-equipe.svg",
+      "mode": "100644",
+      "git_blob": "b60821a24cf7df9d3a79c0e4d2f6f771a68ad833",
+      "sha256": "febff1ab6a90ec290312a66549489e7c103128e810ed9314693be927dfdd3399",
+      "bytes": 1472
+    },
+    {
+      "path": "assets/destaques/isc-destaque-instituto.png",
+      "mode": "100644",
+      "git_blob": "e6cafa1cd1ee8dfb061dcca64012d9e95498bccb",
+      "sha256": "b53ed92c54bbf7e73b678e33582c5a2d6c6567c91189b2b1a90d52d4908b6b76",
+      "bytes": 333061
+    },
+    {
+      "path": "assets/destaques/isc-destaque-instituto.svg",
+      "mode": "100644",
+      "git_blob": "3c92e835a28b82dd5f334311bd7da0da817e57da",
+      "sha256": "e8e357f9974a02b90114ce29668897cdf1c67727ffa923495935a2801a284ffd",
+      "bytes": 1532
+    },
+    {
+      "path": "assets/destaques/isc-destaque-localizacao.png",
+      "mode": "100644",
+      "git_blob": "af71619a22f35ac96f457e52806647f1614850fe",
+      "sha256": "40016b8828aa30fa68d325cf5dc5b3c824f43f05a067d6cd749c7b4d6acfa087",
+      "bytes": 336588
+    },
+    {
+      "path": "assets/destaques/isc-destaque-localizacao.svg",
+      "mode": "100644",
+      "git_blob": "f211198ac163c7c8f7f06dd707e52395241a09d8",
+      "sha256": "a02ef70c9a2e0881792cb17d0e43e10a2285487f66b6a15ab82a2adc085077e3",
+      "bytes": 1511
+    },
+    {
+      "path": "assets/fontes/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2",
+      "mode": "100644",
+      "git_blob": "441a4cfbf4d2067c903f44360ba2a45deb278acd",
+      "sha256": "920711de9ae96c18970fa4faca73cd302b93ac5ed57ebeb6bfec2ddeff930082",
+      "bytes": 68224
+    },
+    {
+      "path": "assets/fontes/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+      "mode": "100644",
+      "git_blob": "61220a0f6bb5d74f2cea3c53094c31e2a875f90f",
+      "sha256": "6438d7b8ea9c7c3992d5e2fd2afdb1ff948570a3ef0bedae76247b51632960ba",
+      "bytes": 35508
+    },
+    {
+      "path": "assets/fontes/SlGWmQSNjdsmc35JDF1K5GRweDU1ZyHKpWiGIg.woff2",
+      "mode": "100644",
+      "git_blob": "ae1544ff116f1b96ac8786167bacd15ecfc4dea1",
+      "sha256": "0077bd5045a699e2d26d1fc5a6071f865ec0698ba419cad62ce9465b59b6d47c",
+      "bytes": 88392
+    },
+    {
+      "path": "assets/fontes/SlGWmQSNjdsmc35JDF1K5GRweDs1ZyHKpWg.woff2",
+      "mode": "100644",
+      "git_blob": "d2e2bc1e6b01d3417d240b6a21d8616daa05a055",
+      "sha256": "d2761541b314509e02df3539cd35fc712954a48a50f4e0ab424dde817c699c2a",
+      "bytes": 47824
+    },
+    {
+      "path": "assets/fontes/font?kit=JTU4jIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6C41QYuEPgG_LbnLoclbcDGy_rGKMQ&skey=7bc19f711c0de8f&v=v31",
+      "mode": "100644",
+      "git_blob": "b1c4f094805cfd433707337fbe68b1a40127dfb8",
+      "sha256": "a4f7c9dc1068678c84923fc72fa54a6e5c20eb6caed90c55410f3bd87b04a9eb",
+      "bytes": 34556
+    },
+    {
+      "path": "assets/fontes/font?kit=JTU4jIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6C41QYuEPgG_LbnLoclbfjGy_rGKMQ&skey=7bc19f711c0de8f&v=v31",
+      "mode": "100644",
+      "git_blob": "26803e3734f0d820b71696f863c88204fcb38f52",
+      "sha256": "4b7952b427164c55d79a8e0c16eb4835b71f8a7adfab50ec43214795fca2b634",
+      "bytes": 85096
+    },
+    {
+      "path": "assets/fontes/font?kit=SlGwmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7e8QO1xe1lPHdJOQ_3TIkq9RmdIW2Xlog&skey=b76c0cb3db3b0fac&v=v33",
+      "mode": "100644",
+      "git_blob": "c4d8ebc0051ec4e0407c10a840ec3f5105113b34",
+      "sha256": "6bba8a8270dfcb762510fcff23b48f0bbaa8c39ab15100ea50da9a79ca16c761",
+      "bytes": 45248
+    },
+    {
+      "path": "assets/fontes/font?kit=SlGwmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7e8QO1xe1lPHdJOQ_3TIkq9SGdIW2Xlog&skey=b76c0cb3db3b0fac&v=v33",
+      "mode": "100644",
+      "git_blob": "2dc5483f7831cd16222119ce57c07d31b7a2ff47",
+      "sha256": "b70ba0ac295dba9c3834c9f841894f0b7e4e6bbccb335d95b3421533cb01d3e8",
+      "bytes": 107940
+    },
+    {
+      "path": "assets/fontes/google-6956886754.css",
+      "mode": "100644",
+      "git_blob": "b5ee8ac5841001d96691605811001058d5f4348e",
+      "sha256": "e061fd8268637ef4a75d38af2b4335a7a03f5bcf5002d4f0636d561af44c9597",
+      "bytes": 11717
+    },
+    {
+      "path": "assets/fontes/t5tmIRoYMoaYG0WEOh7HwMeR3T7Pr7GEch8.woff2",
+      "mode": "100644",
+      "git_blob": "dddffbcbb4f0db793119f1fa877e4e374172d1a3",
+      "sha256": "f65c1ccd9034f577bd966befb45920532ef59507d21e6e652e551a16b3455ac2",
+      "bytes": 13224
+    },
+    {
+      "path": "assets/fontes/t5tmIRoYMoaYG0WEOh7HwMeR3TDPr7GEch8jrg.woff2",
+      "mode": "100644",
+      "git_blob": "aa9a260d20519ac20c6fe67f392e2ef73c943a7c",
+      "sha256": "e271ff77b2e862a1dcaed2ab32462bb46e99cac8c517fbe06e02ab52d334ef09",
+      "bytes": 8820
+    },
+    {
+      "path": "assets/formas/isc-forma-camadas-marfim.svg",
+      "mode": "100644",
+      "git_blob": "4ed46e7a2f2299dd63995c9fe22798b20e9b2d89",
+      "sha256": "63f43b8cdffcefdc9f8c632db1a73fbbe770b5b13a1bd0d253e279a4a3894095",
+      "bytes": 384
+    },
+    {
+      "path": "assets/formas/isc-forma-camadas-preto.svg",
+      "mode": "100644",
+      "git_blob": "1ed62503a8482234d070d264bb45b01ef184ddfa",
+      "sha256": "4dc49c935258a30387a7f52e38f703cc52429c39863252f0fbd78371bab21ed4",
+      "bytes": 384
+    },
+    {
+      "path": "assets/formas/isc-forma-elo-marfim.svg",
+      "mode": "100644",
+      "git_blob": "29ccfd51a795754c7ee68e9a7f998e118488d5b9",
+      "sha256": "7dbf1c14e5e83600078182ad89ad09e89872290628eb7cfcff197b3cdb62a204",
+      "bytes": 361
+    },
+    {
+      "path": "assets/formas/isc-forma-elo-preto.svg",
+      "mode": "100644",
+      "git_blob": "a8de7547c7a14870680b0be13be583f873b91fbe",
+      "sha256": "7106a3f6d0fdcf10134b953c58738ce81348fc1a9ef8d8ab4e7346114edb0262",
+      "bytes": 361
+    },
+    {
+      "path": "assets/formas/isc-forma-fio-marfim.svg",
+      "mode": "100644",
+      "git_blob": "ee86802bdd6f67ceee55e2445d534f4444729947",
+      "sha256": "90ad9f76e9da582bbf6b3261411d8b0ce42a431b1f4b92c9ea79be41fd63ebd6",
+      "bytes": 261
+    },
+    {
+      "path": "assets/formas/isc-forma-fio-preto.svg",
+      "mode": "100644",
+      "git_blob": "c5a3efdf765434671b9dc01f8cc549bcc8b52994",
+      "sha256": "496c5983d7696671d06560c23e4de24f36e4fad209a1dabfaad03e4b1b061645",
+      "bytes": 261
+    },
+    {
+      "path": "assets/formas/isc-forma-grade-marfim.svg",
+      "mode": "100644",
+      "git_blob": "053364e3689cb4e1c409570d651940ef2c1976a9",
+      "sha256": "e2756171b4987c1eaf76eec994904b0ec8069bc40cb43cea951cc1466b1f7071",
+      "bytes": 2898
+    },
+    {
+      "path": "assets/formas/isc-forma-grade-preto.svg",
+      "mode": "100644",
+      "git_blob": "033c4dde7006a73efca37eee8c8176271629516d",
+      "sha256": "965248e3db890987fcac75b419e75b537d2ebef358cabbd6e29506f98f08aeb9",
+      "bytes": 2898
+    },
+    {
+      "path": "assets/formas/isc-forma-orbita-marfim.svg",
+      "mode": "100644",
+      "git_blob": "0e6921ac8ba2331e2877ccd73631cfe55ebe7f12",
+      "sha256": "9852c51c1fe90897902ce7086e17bb58701b8a7f6cb256850d13a809777133be",
+      "bytes": 435
+    },
+    {
+      "path": "assets/formas/isc-forma-orbita-preto.svg",
+      "mode": "100644",
+      "git_blob": "cc34a90aa252f611014fbbccaa85a308bd33cb27",
+      "sha256": "a5d3748034102c08b8df510502e50020314efb64f4ae90c2287170c5bf0324b8",
+      "bytes": 435
+    },
+    {
+      "path": "assets/formas/isc-forma-percurso-3-marfim.svg",
+      "mode": "100644",
+      "git_blob": "c106d3a53313736be0f5cb06de947f40379a1785",
+      "sha256": "da188d3f78192f73b4f326c3bcf5d6bcfd53dcb4aff2403d5be9469dad08f52a",
+      "bytes": 67127
+    },
+    {
+      "path": "assets/formas/isc-forma-percurso-3-preto.svg",
+      "mode": "100644",
+      "git_blob": "46c9b6555457e8297dbe229f6409106fc3324213",
+      "sha256": "93662d15309beb689643381efd188032b95b426a39ea2ad52cf3f1f647646791",
+      "bytes": 67127
+    },
+    {
+      "path": "assets/formas/isc-forma-percurso-marfim.svg",
+      "mode": "100644",
+      "git_blob": "6aa999526e200fba03c2116a3cf8b628eac2daf7",
+      "sha256": "0a165ceaa8bb33d66e66af1fa103c494404974acd7084c02be1fcf9e92e11425",
+      "bytes": 514
+    },
+    {
+      "path": "assets/formas/isc-forma-percurso-preto.svg",
+      "mode": "100644",
+      "git_blob": "551b4701ed5abe9de6f69519f8f688c353c8d395",
+      "sha256": "3cfeb169a0f1d223d11768ee74956b27fe0ddbf607f9ad25c59b10a0616a26f8",
+      "bytes": 514
+    },
+    {
+      "path": "assets/formas/isc-forma-ponto-marfim.svg",
+      "mode": "100644",
+      "git_blob": "ee2903b7ce945d9964b5d82e2edd50dc2eff55d7",
+      "sha256": "bd6f3601f99d04ccb2cf4fd005cc950628d44ae827e05f69133be89664746f90",
+      "bytes": 223
+    },
+    {
+      "path": "assets/formas/isc-forma-ponto-preto.svg",
+      "mode": "100644",
+      "git_blob": "e244317bdd7de723c20c43b8e77caef84f37d8c0",
+      "sha256": "3fb6e537a813e344ce273bc97a27f4722704fe3362e24f90cfafc6c5955733f1",
+      "bytes": 223
+    },
+    {
+      "path": "assets/fotos/dr-sharbo-retrato.jpg",
+      "mode": "100644",
+      "git_blob": "5eda02260082459157b095f3fc0cd5c6568cea77",
+      "sha256": "26e4bb823e8f61936b456bcbb9b4be0e5ca2900bc4299548902a959502912e72",
+      "bytes": 145350
+    },
+    {
+      "path": "assets/fotos/instituto-consultorio.jpg",
+      "mode": "100644",
+      "git_blob": "0beaecb18d1571351a6f84ed3f5a376cb878a024",
+      "sha256": "47e594ec2637d15c6678d9c1e4d8eccbdf640dad575d6dab3e9d7409f940ae84",
+      "bytes": 311634
+    },
+    {
+      "path": "assets/fotos/instituto-cortina-dourada-capa.jpg",
+      "mode": "100644",
+      "git_blob": "d66ae53b351f3d8182c77a8931ee5c6dea0daeea",
+      "sha256": "66a3b874d658f18df94b2503288b005afafcec1d3aee35b873f62f6b4821aafc",
+      "bytes": 132617
+    },
+    {
+      "path": "assets/fotos/instituto-cortina-dourada-vertical.jpg",
+      "mode": "100644",
+      "git_blob": "10954fe27f094fa228552f86d84115f4c67d2fce",
+      "sha256": "bbce2156bbdba3c95d14d800c6dd0867aac03ddc174e35fd30a4360bf68577fd",
+      "bytes": 193135
+    },
+    {
+      "path": "assets/fotos/instituto-cortina-dourada.jpg",
+      "mode": "100644",
+      "git_blob": "5964bbf74e5314bf95775dc40be8adf5f78fc33b",
+      "sha256": "883926daff196728926c44dd4dbcbd40ee3299e8c712eac03e40d1e32ff7819f",
+      "bytes": 225892
+    },
+    {
+      "path": "assets/fotos/instituto-lounge.jpg",
+      "mode": "100644",
+      "git_blob": "8e340617e00b04f22f85fca021786422adb56da3",
+      "sha256": "c5897a7f1dddf9d28cc09cdb1c306754e5b59feda20a1c573a14edaa1b073212",
+      "bytes": 255727
+    },
+    {
+      "path": "assets/fotos/instituto-parede-pendentes.jpg",
+      "mode": "100644",
+      "git_blob": "d59dbef68c159e51242b828036e7d7e28a52e77f",
+      "sha256": "7a3d28d968e0bc2102882e20833a6c8a9f26d77309f7099fce3b65229660682d",
+      "bytes": 10313
+    },
+    {
+      "path": "assets/fotos/instituto-sala-de-atendimento.jpg",
+      "mode": "100644",
+      "git_blob": "48c8902116f4053b7c206adc5b914ff21be85a16",
+      "sha256": "25c0f5178c59806ddaab82a30852e17f0c8007a8d0ef78b40aee5371c58f349c",
+      "bytes": 402219
+    },
+    {
+      "path": "assets/fotos/instituto-sala-de-espera.jpg",
+      "mode": "100644",
+      "git_blob": "e700360dd7d6db71924f55576a3b3a4df57e41e1",
+      "sha256": "08f622f8f558ba043bbe081334169e234b51eb10748a5cf736c1efc28aaba792",
+      "bytes": 184331
+    },
+    {
+      "path": "assets/fotos/instituto-sala-luz-quente-vertical.jpg",
+      "mode": "100644",
+      "git_blob": "7932270c828813da6ed2ec7b104a002be6775db5",
+      "sha256": "22e2b1b7a651bdebe7728179919a1f9ef6fddd92c44efa6861574fa8b49c9dd3",
+      "bytes": 85844
+    },
+    {
+      "path": "assets/fotos/referencia-recepcao-letreiro-antigo.jpg",
+      "mode": "100644",
+      "git_blob": "36fcf9c44ba5fabd2be37100476c39834cb9285a",
+      "sha256": "b72cb23ac3f12582fdfb575c7d5598b62aac0153cd89f070911b7c6af807d2ed",
+      "bytes": 223702
+    },
+    {
+      "path": "assets/grades/grade-post-11.png",
+      "mode": "100644",
+      "git_blob": "ff2d1d1040cb751f727591707f1f1b61e0f1d7d7",
+      "sha256": "872c8a5ff045af8d758c11ac5d18ec26cf0de28320d5aad0fcec08b5217c45e9",
+      "bytes": 7553
+    },
+    {
+      "path": "assets/grades/grade-post-34.png",
+      "mode": "100644",
+      "git_blob": "3c94cdd57bbdab1bbbcd4356429f3e9ea6c73a2e",
+      "sha256": "c625994a4f501f15af5dbfadaa05b615f46944ae1f04e0cc662752c90f53df90",
+      "bytes": 9877
+    },
+    {
+      "path": "assets/grades/grade-post-45.png",
+      "mode": "100644",
+      "git_blob": "de6b810626ceb490ec4b3a05d49600cc7c7a550a",
+      "sha256": "295f1ce5cc98eccb2844f7fe49dc5af2a80fc32d7fdd969526e7a2385a0fdede",
+      "bytes": 9288
+    },
+    {
+      "path": "assets/grades/grade-reels.png",
+      "mode": "100644",
+      "git_blob": "b739d008677483d333f4f3d9619b2d23027ac7ed",
+      "sha256": "8d1d645a1e1da16e479b12e642530b2817fc2b9284a411403ab9dda2e507ede0",
+      "bytes": 77735
+    },
+    {
+      "path": "assets/grades/grade-story.png",
+      "mode": "100644",
+      "git_blob": "96e19a7e13fd66c3d0e7b4f12637a2951d0f5b78",
+      "sha256": "bbcf50149a1c98bb5b3bce97fcebac36e2e8f4a95ef3eb367ee2bae24ea63ec7",
+      "bytes": 55892
+    },
+    {
+      "path": "assets/graficos/isc-grafico-anel-marfim.svg",
+      "mode": "100644",
+      "git_blob": "837c3aeb6a17a5268dd625838837bf1a2d95b363",
+      "sha256": "ca002b9e23a23c6c5ba61ac82e88bb58d285ac0024459e1370bc047fff2cb8af",
+      "bytes": 1574
+    },
+    {
+      "path": "assets/graficos/isc-grafico-anel-preto.svg",
+      "mode": "100644",
+      "git_blob": "cf62ef0310d2f9ec9d73dcb4ea614d1371cd84b7",
+      "sha256": "66e0e6bec0eb7a6bc114967e85bc6e648e83db942678bee954f3b07cc03fa884",
+      "bytes": 1574
+    },
+    {
+      "path": "assets/graficos/isc-grafico-barras-h-marfim.svg",
+      "mode": "100644",
+      "git_blob": "2aae8256ab733fb1f080c545fbeeaad9ca917d5d",
+      "sha256": "0657ee307705ee999e4a098babf6d6ef49040f9cc4fc6447d96692ea8b2a6ad5",
+      "bytes": 2867
+    },
+    {
+      "path": "assets/graficos/isc-grafico-barras-h-preto.svg",
+      "mode": "100644",
+      "git_blob": "d985c2c79004e6e861087cbabc4b4e7ccd6cc70f",
+      "sha256": "2b9e835dc21c123381afb84657dc20c43923fe92a7878b030d3b5ef3397f4204",
+      "bytes": 2867
+    },
+    {
+      "path": "assets/graficos/isc-grafico-barras-marfim.svg",
+      "mode": "100644",
+      "git_blob": "948677f7aabb753f8602fc2358b5cb6a2f726351",
+      "sha256": "a21a34ea8df53a8b1d6189d796412ddded6348cf06fe6f568b7263b6d676c237",
+      "bytes": 2972
+    },
+    {
+      "path": "assets/graficos/isc-grafico-barras-preto.svg",
+      "mode": "100644",
+      "git_blob": "136e5f032cf8dd740b156f44551a7cc25daa3ac1",
+      "sha256": "dbdb58b92cd0920df6c3c0a988e67453c981a6c58c7a54f99ed33391a8acccd2",
+      "bytes": 2972
+    },
+    {
+      "path": "assets/graficos/isc-grafico-composicao-marfim.svg",
+      "mode": "100644",
+      "git_blob": "440e1851eb1d34141660b739449e3c6402eff946",
+      "sha256": "268ea4dc39c19988639150340223108fea96096276dfb72bd19676c53cde412b",
+      "bytes": 2925
+    },
+    {
+      "path": "assets/graficos/isc-grafico-composicao-preto.svg",
+      "mode": "100644",
+      "git_blob": "8d385866e26e0a7c897cda0d70f0327fc96a451b",
+      "sha256": "4dc9a594a9e059c2fe1985fcafa8e601aed8cc173a6cdde55e6374e55f25f333",
+      "bytes": 2925
+    },
+    {
+      "path": "assets/graficos/isc-grafico-fluxo-marfim.svg",
+      "mode": "100644",
+      "git_blob": "ba3c33fd25440bca5f2bcba3ca918f6b159450fb",
+      "sha256": "2564cb3e477644057f5d84ba272170a92ec3489ef6fd44afa6a7ccbfae9d1b79",
+      "bytes": 3452
+    },
+    {
+      "path": "assets/graficos/isc-grafico-fluxo-preto.svg",
+      "mode": "100644",
+      "git_blob": "4b92a1953d7966ea9968a9aa1c81fd6bfcc9f08c",
+      "sha256": "00b4553a16c7c21da6d8c1ca4d9936fb9c03f5b5ef7850b8d06f7e3130cbe12f",
+      "bytes": 3452
+    },
+    {
+      "path": "assets/graficos/isc-grafico-funil-marfim.svg",
+      "mode": "100644",
+      "git_blob": "c86c00bde2ebb9142a2779c3af5f2e95ec9de997",
+      "sha256": "f93524d2df93f47cc8be532f9bff3117f8e0e5dd12ce3ebcc0308fbfcc9b49f0",
+      "bytes": 3298
+    },
+    {
+      "path": "assets/graficos/isc-grafico-funil-preto.svg",
+      "mode": "100644",
+      "git_blob": "6d454cd16a7effc334ef014af3fac01da43de313",
+      "sha256": "db7147ae94b4dcb04286b9aa0f765bf37e91c3a0f10c510a7625e5fb4aaa7dc9",
+      "bytes": 3298
+    },
+    {
+      "path": "assets/graficos/isc-grafico-kpi-marfim.svg",
+      "mode": "100644",
+      "git_blob": "a303421e31e54bed0065a1060300fddd67a8b4ac",
+      "sha256": "b8bdf38929a79e3fe961a585ad73f60aecf116cd2979d2183ad8007fff2628eb",
+      "bytes": 1951
+    },
+    {
+      "path": "assets/graficos/isc-grafico-kpi-preto.svg",
+      "mode": "100644",
+      "git_blob": "605a63e3acfc287387effdd691aaff76b558c552",
+      "sha256": "f293234600edff79a769572b3e0a17f09ba0758f90f732ebdebe03a05e4b81cf",
+      "bytes": 1951
+    },
+    {
+      "path": "assets/graficos/isc-grafico-linha-marfim.svg",
+      "mode": "100644",
+      "git_blob": "a4134b66efb66f600fdfaf200056de6a58fd95e1",
+      "sha256": "714b21fbaa6ed7d4ba1512bd7d6a56f7324421f0798cb00be885b46efa6074f3",
+      "bytes": 3261
+    },
+    {
+      "path": "assets/graficos/isc-grafico-linha-preto.svg",
+      "mode": "100644",
+      "git_blob": "7f8ddff2de38042489ca9df1b0d61a827c901859",
+      "sha256": "f04d503f7bc3395cd73d3b2e80cf19bd3d2a7bac40bc3614db255f91415e2851",
+      "bytes": 3261
+    },
+    {
+      "path": "assets/graficos/isc-grafico-linha-tempo-marfim.svg",
+      "mode": "100644",
+      "git_blob": "7e226052444bf1da85fb63b62bdb8dab3d4c5da6",
+      "sha256": "6feacc6a2f215b45bafd76225e1d7b7f2adc899408c1d1152dd9aba5eba816a3",
+      "bytes": 3803
+    },
+    {
+      "path": "assets/graficos/isc-grafico-linha-tempo-preto.svg",
+      "mode": "100644",
+      "git_blob": "684b52db2c046a0725d106ed19c8d42d483126af",
+      "sha256": "77f40ec1b29e8c6e32ae11f74e0705efb308ceea7a82f26fa43ec3fcd401ab4e",
+      "bytes": 3803
+    },
+    {
+      "path": "assets/icones/LICENSE-lucide.txt",
+      "mode": "100644",
+      "git_blob": "718bb3f0e44153809972abed31839375804bf652",
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57",
+      "bytes": 3208
+    },
+    {
+      "path": "assets/icones/arrow-right-branco-quente.png",
+      "mode": "100644",
+      "git_blob": "309c584bb37a0adb1ffc5b216687ba0e88e2ef7c",
+      "sha256": "d4001f5f910c090b0b5584bde76a1467267927fec7f99b5b90b8e0eb75823e1d",
+      "bytes": 6030
+    },
+    {
+      "path": "assets/icones/arrow-right-branco-quente.svg",
+      "mode": "100644",
+      "git_blob": "95b345441c0e7a8fb5023f6f5bba5538f169694f",
+      "sha256": "7640e52921f71ec6776922b5e892e66a9cb2e7aa6d3d80d57c8b1bdcde1dbf50",
+      "bytes": 340
+    },
+    {
+      "path": "assets/icones/arrow-right-grafite.png",
+      "mode": "100644",
+      "git_blob": "f0e624a7e8bbad9c10d2f895717b8bd3b55201c0",
+      "sha256": "41313e5882c8fa550c23c57f5b827e4a6bf144b9a874649c4f3dae87e120a3a5",
+      "bytes": 5712
+    },
+    {
+      "path": "assets/icones/arrow-right-grafite.svg",
+      "mode": "100644",
+      "git_blob": "6dd99888cff9b0b4517f9eef09959a7c7b55ea1c",
+      "sha256": "c53fbf3aa9cc841280a5e0b91361c84d3e355033d3e59cee6ad132d37a948786",
+      "bytes": 340
+    },
+    {
+      "path": "assets/icones/arrow-right-marrom.png",
+      "mode": "100644",
+      "git_blob": "cf53f7c68f90407e6bdc303f97d45bfc0f551850",
+      "sha256": "145f72d61955c4a70fc13ec0c9bb5c3f0873b5444a4d7d68228ec4973e2f6f83",
+      "bytes": 5696
+    },
+    {
+      "path": "assets/icones/arrow-right-marrom.svg",
+      "mode": "100644",
+      "git_blob": "8b2b34e1c52c5cada19d3f35cfac96e77261b3d2",
+      "sha256": "685d273f3787cb8913b7882759790e6c288d5449d79ff9409b114e6ac16aa2b8",
+      "bytes": 340
+    },
+    {
+      "path": "assets/icones/arrow-right-ouro.png",
+      "mode": "100644",
+      "git_blob": "d4ff89ada2f9e537c128e1b08fb2615980a87a48",
+      "sha256": "19b0eea198a22379c3bcce219eee744ecfd2def4a8200aa597cb2f95407a8059",
+      "bytes": 5967
+    },
+    {
+      "path": "assets/icones/arrow-right-ouro.svg",
+      "mode": "100644",
+      "git_blob": "3b6870afb70388e8b5096fcfd50ef7b45000bf3e",
+      "sha256": "b022c7962b6d5828af696b0676c84ce5b4e7a70df22dc46d5f3f64a45ba1332f",
+      "bytes": 340
+    },
+    {
+      "path": "assets/icones/at-sign-branco-quente.png",
+      "mode": "100644",
+      "git_blob": "6c1d18eb4c5c4f3cd902b019369180af1b99360d",
+      "sha256": "87f2f6fc692e886f23ed9232115434b2486b8b6f55bd3e7aee1edf4221c931a2",
+      "bytes": 24429
+    },
+    {
+      "path": "assets/icones/at-sign-branco-quente.svg",
+      "mode": "100644",
+      "git_blob": "fbca0bbc61f0ff4a9a0f03d474fed4cb10e13286",
+      "sha256": "78be5aa6ab748590bd8f9e08def8a5872b1107ce89abb35f50813ad391838300",
+      "bytes": 378
+    },
+    {
+      "path": "assets/icones/at-sign-grafite.png",
+      "mode": "100644",
+      "git_blob": "004721ac841d088fda0ae0f289a9a2d38d79d78e",
+      "sha256": "1779864dba867162296c669d0df9073234d009791483cdc32fd07f95242b6112",
+      "bytes": 24619
+    },
+    {
+      "path": "assets/icones/at-sign-grafite.svg",
+      "mode": "100644",
+      "git_blob": "e62c66f6817908472551a5ebdca09d843f9c5c80",
+      "sha256": "231beb9fc8968f8d9afa908eabdfb35fddea126c774a18da6c55372c7843f2b5",
+      "bytes": 378
+    },
+    {
+      "path": "assets/icones/at-sign-marrom.png",
+      "mode": "100644",
+      "git_blob": "c756712cb382707a3ed8eac7019ab69737647975",
+      "sha256": "27abedbef3a9866fa671d09378a79bcdf106fa264c755b7b37e1ceabcf1ea8df",
+      "bytes": 24711
+    },
+    {
+      "path": "assets/icones/at-sign-marrom.svg",
+      "mode": "100644",
+      "git_blob": "0813d10b74a824d4e19aa7c2897dfe67c41df9e6",
+      "sha256": "a3af966cee6f0766a97b92fd29f4f06e0c3d997bd4591fbf7741d2f92a13d2a3",
+      "bytes": 378
+    },
+    {
+      "path": "assets/icones/at-sign-ouro.png",
+      "mode": "100644",
+      "git_blob": "23fa9fae0014dd606dcfa34a852595eb78a1dec4",
+      "sha256": "cd54fcc55884efba7c1abaaf1334f443d486d1c44ed2bdcaf73c106c1c6beccd",
+      "bytes": 24382
+    },
+    {
+      "path": "assets/icones/at-sign-ouro.svg",
+      "mode": "100644",
+      "git_blob": "60f0f58da39a52f656f738c2db8d71c1ccdb5247",
+      "sha256": "6c624d1458b76a1e290b1a1e6fbb7e287710615c4ece114c541aebf220b55f8a",
+      "bytes": 378
+    },
+    {
+      "path": "assets/icones/building-2-branco-quente.png",
+      "mode": "100644",
+      "git_blob": "e0c974591bdbba2b6d4b5ce3a5f9904b39935e08",
+      "sha256": "ad9fd25fd029a7fadb1f6abb55fe1efd8b88aecca2cbccf1fb165fb66c10bb57",
+      "bytes": 8724
+    },
+    {
+      "path": "assets/icones/building-2-branco-quente.svg",
+      "mode": "100644",
+      "git_blob": "9ab168ad4986920a8c86e626950dc8ce2a798dd0",
+      "sha256": "4394c67c6e5ae7dca387c7aa83214c1b79fa8675de9bc4ef063b0f04407c21d4",
+      "bytes": 550
+    },
+    {
+      "path": "assets/icones/building-2-grafite.png",
+      "mode": "100644",
+      "git_blob": "85682269634c0f9c46e64e09ad85d61169da575c",
+      "sha256": "0383ab12602ef31bef998afd9fcd3e201c32c622c9e04cc0f0d27b53267da2a6",
+      "bytes": 8644
+    },
+    {
+      "path": "assets/icones/building-2-grafite.svg",
+      "mode": "100644",
+      "git_blob": "63fec51edb3c1574e407f94c436bf58746389d81",
+      "sha256": "157fba154709c29a27ca17621f706563144dfc5c17d106e4cf5b6e32cae6cdb1",
+      "bytes": 550
+    },
+    {
+      "path": "assets/icones/building-2-marrom.png",
+      "mode": "100644",
+      "git_blob": "e81bfa60a2f0f233dd73f0c379e1b8352b51bdc6",
+      "sha256": "cd393876dbd72d39cf41f67ddc1b15748e8842b9de4392387b1703b9af48c44d",
+      "bytes": 8817
+    },
+    {
+      "path": "assets/icones/building-2-marrom.svg",
+      "mode": "100644",
+      "git_blob": "b2dd7b0b52c9091493f7ad036609bf3e0bd0e4b0",
+      "sha256": "b5e93b77bbb2a5ab75f59addc80baefea2759e40ba52acaf991f2ea2f36fb109",
+      "bytes": 550
+    },
+    {
+      "path": "assets/icones/building-2-ouro.png",
+      "mode": "100644",
+      "git_blob": "f9714fc8edbd28142fd0a0e841bb48c093391a25",
+      "sha256": "17fa88c4df60f8bf4b067e868444b2f7f522b27043d9dc2937600b429615e322",
+      "bytes": 8677
+    },
+    {
+      "path": "assets/icones/building-2-ouro.svg",
+      "mode": "100644",
+      "git_blob": "dea9f5f20012af77c283a8b4679c539c898b983c",
+      "sha256": "94064b898ec75001607929bed1af585ca6fe2fb16beec1e2e1b12575083df97e",
+      "bytes": 550
+    },
+    {
+      "path": "assets/icones/calendar-branco-quente.png",
+      "mode": "100644",
+      "git_blob": "894b82560016e7e30d350c6ba1dc784c21dfd3d2",
+      "sha256": "dbbdcb73aacc82234f549ddca462cfd1c918175b0978d4b26b7c6303813e8031",
+      "bytes": 7192
+    },
+    {
+      "path": "assets/icones/calendar-branco-quente.svg",
+      "mode": "100644",
+      "git_blob": "3bcecd00a4b21253d645517489c6638c9abe80fc",
+      "sha256": "cdd297b3c410a866700fa2c45c35da8927b7361c1ce3d24d3c6990360647a7e7",
+      "bytes": 408
+    },
+    {
+      "path": "assets/icones/calendar-grafite.png",
+      "mode": "100644",
+      "git_blob": "1e530198b40688d3a8085975e401a68590665a38",
+      "sha256": "e16caae3047c7d5ea992495196c8804acc297bbca75008322478048ea9d5f0ec",
+      "bytes": 7203
+    },
+    {
+      "path": "assets/icones/calendar-grafite.svg",
+      "mode": "100644",
+      "git_blob": "10d508789b968b259a2bb537fd4bdd8a9c0c6a89",
+      "sha256": "4987d3eaed8e2d3ed58f1cfe21d95563a489c734f1bb6d397848cd6fba1e323e",
+      "bytes": 408
+    },
+    {
+      "path": "assets/icones/calendar-marrom.png",
+      "mode": "100644",
+      "git_blob": "05424433677e7dc1b35007dae3ff8af977f61921",
+      "sha256": "ac4c6454e2081c944138f86ecec3a3a2294408a053cd4f9208ce98446284d443",
+      "bytes": 7286
+    },
+    {
+      "path": "assets/icones/calendar-marrom.svg",
+      "mode": "100644",
+      "git_blob": "c48f1ea896a173ca8e1ec975fc8898929d793dd4",
+      "sha256": "06472eb234e693cb632be34eb80fd04c822a45b574b3c74ea18a137eac952b4f",
+      "bytes": 408
+    },
+    {
+      "path": "assets/icones/calendar-ouro.png",
+      "mode": "100644",
+      "git_blob": "489553b360d9bf852ab23477583056e2683097c9",
+      "sha256": "2a61ad29d83d29b1cf2cfaf4a30ed862d8c33951b516393405551e4f6aa25f5a",
+      "bytes": 7200
+    },
+    {
+      "path": "assets/icones/calendar-ouro.svg",
+      "mode": "100644",
+      "git_blob": "c96586460034978d20379c08946c25dce78c874a",
+      "sha256": "ced555ff30e8d33825e3ad389bae00f742098a1cd5c1375cf88a6861d9c0588f",
+      "bytes": 408
+    },
+    {
+      "path": "assets/icones/camera-branco-quente.png",
+      "mode": "100644",
+      "git_blob": "5b094389be1bf107e18c40ba78eb3511a9476453",
+      "sha256": "033922c35e866616e053a3aa5cbcab8023b3bdc9fd5f054db60530b04f2b86d8",
+      "bytes": 14287
+    },
+    {
+      "path": "assets/icones/camera-branco-quente.svg",
+      "mode": "100644",
+      "git_blob": "f5d17ff6cb2a510a521f52041996787c1ecb164e",
+      "sha256": "bb0577e302fcd7919a02fd6891a9e5966c63acabf4abcaf16fc0fcb8d0cfc6ba",
+      "bytes": 516
+    },
+    {
+      "path": "assets/icones/camera-grafite.png",
+      "mode": "100644",
+      "git_blob": "ee5af806ca81081a6028fb148605379d19bdd38a",
+      "sha256": "f6cd395e02ef8f240c3859b4c0ac89957614c6290e65dc7686852421c02e9b80",
+      "bytes": 14293
+    },
+    {
+      "path": "assets/icones/camera-grafite.svg",
+      "mode": "100644",
+      "git_blob": "2f9a017d18a274acf1fd769ac08abe5f70eac812",
+      "sha256": "d6b0cdc7d08753ae27d5de5f3e71d497cada47e79a1d02c572b92fc381bad44a",
+      "bytes": 516
+    },
+    {
+      "path": "assets/icones/camera-marrom.png",
+      "mode": "100644",
+      "git_blob": "b67bd78eda2ea1803b817527bc884bcf96007e73",
+      "sha256": "a8896cf616697368794e5024d650d0574b612f2ef61e519c03d0852d830d2213",
+      "bytes": 14442
+    },
+    {
+      "path": "assets/icones/camera-marrom.svg",
+      "mode": "100644",
+      "git_blob": "0d236d7993fafa78c22ac6ed289d9ee428a0393d",
+      "sha256": "ac815414f9060e3895d2822e19dc77b4c7143e3fac5e87495d63c46a21a9d79b",
+      "bytes": 516
+    },
+    {
+      "path": "assets/icones/camera-ouro.png",
+      "mode": "100644",
+      "git_blob": "cbec7a58d9959fbf5855536938a9de7d51e7efd1",
+      "sha256": "358bb2508e7d4b347bfaa8ca5065f6693da7ce11a680077ecf6e16153f9b6520",
+      "bytes": 14384
+    },
+    {
+      "path": "assets/icones/camera-ouro.svg",
+      "mode": "100644",
+      "git_blob": "281144e9d55be8a94e8f992cf504928838e4291a",
+      "sha256": "f1b4e22aea98fe392ef191cef394b1b11d95d617118278858e1a395a1d9ad95c",
+      "bytes": 516
+    },
+    {
+      "path": "assets/icones/check-branco-quente.png",
+      "mode": "100644",
+      "git_blob": "625671f90d48b43dff99a562223b5f5a28ec382b",
+      "sha256": "238be4db4554ee1874f30117c1901cd6f67f27928a77aabfe2f7006da300b208",
+      "bytes": 5596
+    },
+    {
+      "path": "assets/icones/check-branco-quente.svg",
+      "mode": "100644",
+      "git_blob": "2887deb818ca4b9f708ab5c8a434243059613d7e",
+      "sha256": "2e1a123ded5fcdddfc106d079b3c2636091dbdf698e1099304d86df062b28698",
+      "bytes": 318
+    },
+    {
+      "path": "assets/icones/check-grafite.png",
+      "mode": "100644",
+      "git_blob": "096da4b11acc15be0f68872c0c0238a2c94dfe29",
+      "sha256": "e76f7ac5164c7cdafb96a81862a2f84e6cd95510174936c0fdd73b9ed2e5aaa1",
+      "bytes": 5388
+    },
+    {
+      "path": "assets/icones/check-grafite.svg",
+      "mode": "100644",
+      "git_blob": "d6a87becabd50eabf3a290a9af2a338ae7b509cb",
+      "sha256": "477cb45e638e0929453be468b8923bf50d9dc2fd6c7ecdf3d1de72ea3a84e9f6",
+      "bytes": 318
+    },
+    {
+      "path": "assets/icones/check-marrom.png",
+      "mode": "100644",
+      "git_blob": "4155466790d1c0cf96ae774fcf82e574e6a7adac",
+      "sha256": "5582381bc7508b0a965d75ceb7c9dfbf4ef06c8421de7bc9282b62839eb20732",
+      "bytes": 5511
+    },
+    {
+      "path": "assets/icones/check-marrom.svg",
+      "mode": "100644",
+      "git_blob": "904a6181714901493be3d594b71634ca18eca09c",
+      "sha256": "fb02232f4480a553079699a724d5219c795209e4024295dbfedf237bcf2394d7",
+      "bytes": 318
+    },
+    {
+      "path": "assets/icones/check-ouro.png",
+      "mode": "100644",
+      "git_blob": "cf94e7dcd9254151a14b70c274cabc9c873560e8",
+      "sha256": "735d0e66a37d616911d9ff516285ad373242695935c7e0b76d2118a15bdcd310",
+      "bytes": 5564
+    },
+    {
+      "path": "assets/icones/check-ouro.svg",
+      "mode": "100644",
+      "git_blob": "058d35eab80af1803361aba86aa754cb205332a5",
+      "sha256": "3e821fb02ef863e6cf4310e7a402ebcd4c3db2f1640854f1431def24f16e9539",
+      "bytes": 318
+    },
+    {
+      "path": "assets/icones/clipboard-list-branco-quente.png",
+      "mode": "100644",
+      "git_blob": "684fd0b5fd19644a18563b0b120cab0389679665",
+      "sha256": "b5734346ee0b6f5e1050a9c110cf5628197a230a1eccad90ae00784d7111b640",
+      "bytes": 10719
+    },
+    {
+      "path": "assets/icones/clipboard-list-branco-quente.svg",
+      "mode": "100644",
+      "git_blob": "f76de75bde6ac34b9b94c3ec6abeeaf470e3d849",
+      "sha256": "631461e621c14e8c738bd0c1a1bfac69b2bffe6d85f4e5e96e5d55aeed4d2e30",
+      "bytes": 531
+    },
+    {
+      "path": "assets/icones/clipboard-list-grafite.png",
+      "mode": "100644",
+      "git_blob": "8ca527b4891f2794ad5d7ae745bd7cfaf5a47713",
+      "sha256": "758994577311fb0180107672d8c9aed9a38f4fd556ec0e7e68bf78447c012511",
+      "bytes": 10636
+    },
+    {
+      "path": "assets/icones/clipboard-list-grafite.svg",
+      "mode": "100644",
+      "git_blob": "dcb6f521ca260ddb47668405c686b600a28789bc",
+      "sha256": "34dfcc842d5ce50b014d34c382aa5574ac66e581fb3143fa0b6c5070378fa8d9",
+      "bytes": 531
+    },
+    {
+      "path": "assets/icones/clipboard-list-marrom.png",
+      "mode": "100644",
+      "git_blob": "8a1bfec4b0d150d3050228586a4c527dd439e78b",
+      "sha256": "30034103abbe369a4060a7a888afba26dfbbfa03e3c6cedc7c9825c6db72b260",
+      "bytes": 10703
+    },
+    {
+      "path": "assets/icones/clipboard-list-marrom.svg",
+      "mode": "100644",
+      "git_blob": "c29c0e47151d9246762fff54a6378262a5d5a9d7",
+      "sha256": "64f00050fad70e7afbbae60abdc0a636e14441b7b681d7b68fcde9084743e0c6",
+      "bytes": 531
+    },
+    {
+      "path": "assets/icones/clipboard-list-ouro.png",
+      "mode": "100644",
+      "git_blob": "a5b3c00850ea8d4c7112e8d44618e8e0e9733678",
+      "sha256": "50b5e38dce5f4591f26fafce4251d626d0d12b5e35f417e2bc86fac04b6fa4f5",
+      "bytes": 10748
+    },
+    {
+      "path": "assets/icones/clipboard-list-ouro.svg",
+      "mode": "100644",
+      "git_blob": "f29360b62dcbc33eba0b8676f14f7b2765cac222",
+      "sha256": "5aec2bf258b5f0ef60f8612b93b75d8dbdcab549e510d8a8c21e54e5b5d9ceba",
+      "bytes": 531
+    },
+    {
+      "path": "assets/icones/clock-branco-quente.png",
+      "mode": "100644",
+      "git_blob": "2392e90dd685098f673e7c25b2a1f1e6e0994050",
+      "sha256": "56f9d70bf8bdd1caa99e90edbf2df878434cb51762f4b68cfc1cb95cdae39ffc",
+      "bytes": 19067
+    },
+    {
+      "path": "assets/icones/clock-branco-quente.svg",
+      "mode": "100644",
+      "git_blob": "9f4bb84adce79c72739a260be209414bb8d8bdfa",
+      "sha256": "962002acadf82363b58a894c3e6123c0d85d2836e4dfedf1e7ef66f1be812707",
+      "bytes": 350
+    },
+    {
+      "path": "assets/icones/clock-grafite.png",
+      "mode": "100644",
+      "git_blob": "441c875ed503763904cf3c32c00a3ab3df250b79",
+      "sha256": "a8298c62bf7382a21c161c59b96e8f2931e432354dd4e2b56f835676c975caee",
+      "bytes": 19153
+    },
+    {
+      "path": "assets/icones/clock-grafite.svg",
+      "mode": "100644",
+      "git_blob": "bf2ce977b57151ff33c016ae766029818e4c26f0",
+      "sha256": "99628c84a93a5aa78140e07e15562ca1f41a0f1c1d7fdbf78b59d7d8ca383bff",
+      "bytes": 350
+    },
+    {
+      "path": "assets/icones/clock-marrom.png",
+      "mode": "100644",
+      "git_blob": "09b05c59dd8e354334848a458c9d5a6dd95c1af6",
+      "sha256": "87b74ef156eb86650f0bf9c09996b3a56c83a35e872bd6e566bd69d57bcac25b",
+      "bytes": 19286
+    },
+    {
+      "path": "assets/icones/clock-marrom.svg",
+      "mode": "100644",
+      "git_blob": "5e242c99b71838eac4cad68b92551e8d1d36e8a9",
+      "sha256": "78df14a0d6e3df486abac6c030cc4796957ad3f0e472c53cb83ec38ba7b36c68",
+      "bytes": 350
+    },
+    {
+      "path": "assets/icones/clock-ouro.png",
+      "mode": "100644",
+      "git_blob": "db846273b349954515714385716253c36d679ca5",
+      "sha256": "1a97b9855370c42ffcebdfc08f32ac0c8fd713d83bc0f46c3371d10cf306d392",
+      "bytes": 18761
+    },
+    {
+      "path": "assets/icones/clock-ouro.svg",
+      "mode": "100644",
+      "git_blob": "2836e0f14d93c4e40a0c6454364e7d60280ed91e",
+      "sha256": "e3679326199c2d0e1bdbe07e7c61e6b70c37b350e72445e3a173aed965f07fbf",
+      "bytes": 350
+    },
+    {
+      "path": "assets/icones/download-branco-quente.png",
+      "mode": "100644",
+      "git_blob": "bb9bcb9ffbbd8df9ce0d9a82afe6a29fd899224c",
+      "sha256": "49dec2a167517fa6b060411132fc6e1a2a7d6af38a6d7e312d636803fe240cf5",
+      "bytes": 6129
+    },
+    {
+      "path": "assets/icones/download-branco-quente.svg",
+      "mode": "100644",
+      "git_blob": "1061440553d61429fe93e1ea234146f611b5ef67",
+      "sha256": "3e55990fdd393be326f6afc848f31d0259af0e3faf4050ff1aee4a96e81c4633",
+      "bytes": 397
+    },
+    {
+      "path": "assets/icones/download-grafite.png",
+      "mode": "100644",
+      "git_blob": "726277879339b504354ab7fba96dd9d44bb1e3ad",
+      "sha256": "e8201bc41825b696d1f7392c8a94d59c70943f77c85f5d89737d5e9d94875bb7",
+      "bytes": 6237
+    },
+    {
+      "path": "assets/icones/download-grafite.svg",
+      "mode": "100644",
+      "git_blob": "050442b3241b00d8bc7487ffbacda8e461d408d0",
+      "sha256": "5ab00043d2c9756507404ad5bb99bfa4f8fc7eeaed21f69901b6f7d14686201a",
+      "bytes": 397
+    },
+    {
+      "path": "assets/icones/download-marrom.png",
+      "mode": "100644",
+      "git_blob": "c98cd588a082cbbb1260ffccbc89e1c88539f5d0",
+      "sha256": "4335f1c915f67c7ced62f9fb455fdacde45c6af82974fc4ad6c8a10e7302aa04",
+      "bytes": 6259
+    },
+    {
+      "path": "assets/icones/download-marrom.svg",
+      "mode": "100644",
+      "git_blob": "50383d1122aa68868a01b8de8115ec9816f7211c",
+      "sha256": "84385dbd161724604fbe9ae8ed63f367151438b9966a9103ee717ddafd69733c",
+      "bytes": 397
+    },
+    {
+      "path": "assets/icones/download-ouro.png",
+      "mode": "100644",
+      "git_blob": "2f9cb44ffc17e25aed3151d78f5eb8774759ea76",
+      "sha256": "9a7d50f559bdf048300e2c0611ac696fd6acb8792baf4fc6aaff7c99c7149a34",
+      "bytes": 6114
+    },
+    {
+      "path": "assets/icones/download-ouro.svg",
+      "mode": "100644",
+      "git_blob": "6aef85678cc52a9638f75b1755b6293c99990552",
+      "sha256": "06976fc6f6ebb790224a23e1fde10f6860953a6de11489c3639cad6c728cca7b",
+      "bytes": 397
+    },
+    {
+      "path": "assets/icones/file-text-branco-quente.png",
+      "mode": "100644",
+      "git_blob": "41f3e3ced59f8f08b22a65849cc3148eb00746e5",
+      "sha256": "6d34a6ed3e269363a404fa9025292c6a4429998205df81f2bcc3e526e50d6bc6",
+      "bytes": 9493
+    },
+    {
+      "path": "assets/icones/file-text-branco-quente.svg",
+      "mode": "100644",
+      "git_blob": "75b6169975858ea35c6852a0b8e183c0f351f255",
+      "sha256": "43ef85427e546210ca08d337b39348316c7d75173fb45eee0d9518395f6132b9",
+      "bytes": 523
+    },
+    {
+      "path": "assets/icones/file-text-grafite.png",
+      "mode": "100644",
+      "git_blob": "812a3f161126da453982f49e41bc8f38e34abeea",
+      "sha256": "218be0a3d5108c4a01c6c077477650463b857947ae76361ca4cc994dba4b340d",
+      "bytes": 9438
+    },
+    {
+      "path": "assets/icones/file-text-grafite.svg",
+      "mode": "100644",
+      "git_blob": "f87329d2a81985599296abea473d7de8e9f0ed71",
+      "sha256": "21e2fed1b46c11c0670847973855f2b6c94f572f7606df83d52e0b5154dcae8b",
+      "bytes": 523
+    },
+    {
+      "path": "assets/icones/file-text-marrom.png",
+      "mode": "100644",
+      "git_blob": "b53c07d9af1b8927daa6fdc99d61e28bd64dfec8",
+      "sha256": "d9bb3ce08c13a9055e1446022e3ad50596a5f61af2d5c3a10b8dd33ea98e62d4",
+      "bytes": 9527
+    },
+    {
+      "path": "assets/icones/file-text-marrom.svg",
+      "mode": "100644",
+      "git_blob": "b0d98eb6e5a97efefda813f5e76a5abc4c3f546a",
+      "sha256": "ebb966c84dc0c4430f0c151474fa07906a93c9a885d7e7e83deccd63f074df53",
+      "bytes": 523
+    },
+    {
+      "path": "assets/icones/file-text-ouro.png",
+      "mode": "100644",
+      "git_blob": "03be2affab91121f8cce2861431b9afc25b3ac90",
+      "sha256": "65ebcd746cd9b4572724d3b91ff9c35c00b38bbf007a0afdd0f42bc91377f348",
+      "bytes": 9469
+    },
+    {
+      "path": "assets/icones/file-text-ouro.svg",
+      "mode": "100644",
+      "git_blob": "bfe0b246fa21b4a4638eb264572ef1bd3d156da6",
+      "sha256": "782a976e2e01f1dddd18a12bb7c2306e0e77b6bb0288b5b50da30ca7046a8d10",
+      "bytes": 523
+    },
+    {
+      "path": "assets/icones/globe-branco-quente.png",
+      "mode": "100644",
+      "git_blob": "cb4d248626dbeb4b26a743c418fd62b27f84981b",
+      "sha256": "85134e7e6ad666358636b47baf0bc1b5bf04e352deea251e47817163fe09434a",
+      "bytes": 26563
+    },
+    {
+      "path": "assets/icones/globe-branco-quente.svg",
+      "mode": "100644",
+      "git_blob": "1e9e6de21f73b38735dda142b2612c8a9519d05f",
+      "sha256": "6b0215df62c8cddcd9c9079a0e3a1d6ef84cbf8328c0f3cb53129d23affbaccd",
+      "bytes": 410
+    },
+    {
+      "path": "assets/icones/globe-grafite.png",
+      "mode": "100644",
+      "git_blob": "083076058c9cc368c50257205d4f0ffc79d8ef25",
+      "sha256": "1ac17c3c813ff5c515f8f6148d5ba5424bd047ac4b2ebf8d11f7214b2870bbd2",
+      "bytes": 26655
+    },
+    {
+      "path": "assets/icones/globe-grafite.svg",
+      "mode": "100644",
+      "git_blob": "0f845aff05968d8a34910974f764454d3bea53a0",
+      "sha256": "a19fc7bcd500251df604e12d07c0a09c0828b29ddba7fc663a2833b5026460a5",
+      "bytes": 410
+    },
+    {
+      "path": "assets/icones/globe-marrom.png",
+      "mode": "100644",
+      "git_blob": "9c2bcfd5d83d34ea2e9e41e36d140d88a5bdb0a0",
+      "sha256": "668b633ad3bb629799402195ce5eed8ecc672d3b5fd05882f8375e55bd786219",
+      "bytes": 26688
+    },
+    {
+      "path": "assets/icones/globe-marrom.svg",
+      "mode": "100644",
+      "git_blob": "256f5be6b3fe83f94900d52f7c69d9100e71bc99",
+      "sha256": "ca6b34e26c5d291c85948ab3aefa4d588d812eba69be94ea392a265320aacaa6",
+      "bytes": 410
+    },
+    {
+      "path": "assets/icones/globe-ouro.png",
+      "mode": "100644",
+      "git_blob": "2525162b312f821ff9d03908d867ebf8937973ad",
+      "sha256": "8c156fdf68951781f3913361efee3bd115cd71b932a431f36ebf483d1ce6515d",
+      "bytes": 26220
+    },
+    {
+      "path": "assets/icones/globe-ouro.svg",
+      "mode": "100644",
+      "git_blob": "fa6be41921f1da3f30d1e6663910302e2b9709bc",
+      "sha256": "1df6ff174a10916000146153f4fcadb40e1bc353ded556e922b6b0084e1e8235",
+      "bytes": 410
+    },
+    {
+      "path": "assets/icones/heart-pulse-branco-quente.png",
+      "mode": "100644",
+      "git_blob": "4e67e717b860c64ab2f7799f57de44f334995861",
+      "sha256": "3015386faf66b3ff37ce1aaf9e7ba5c7b8ef8b28eacd8d857160c14b248cd4fa",
+      "bytes": 21618
+    },
+    {
+      "path": "assets/icones/heart-pulse-branco-quente.svg",
+      "mode": "100644",
+      "git_blob": "c52e7281b1422635ece3df970a49a20f1247378a",
+      "sha256": "ba485f6dd1d4b5f5b8685434e770fcc94a11043ef73348f71ba810b761da6e05",
+      "bytes": 508
+    },
+    {
+      "path": "assets/icones/heart-pulse-grafite.png",
+      "mode": "100644",
+      "git_blob": "d48daca1baad8473fa683121cd11ce18bcaf36df",
+      "sha256": "b49937b1c9c92e7055cca4a1b2f19623b030b807d817fe96258f6864607debf7",
+      "bytes": 21749
+    },
+    {
+      "path": "assets/icones/heart-pulse-grafite.svg",
+      "mode": "100644",
+      "git_blob": "08b8cf9176ace984d88eb220bb7892e995e8602b",
+      "sha256": "d2102fc0009971f2f3fe0a5793fce0066efdf367f5a41abb3017eb3e973ee174",
+      "bytes": 508
+    },
+    {
+      "path": "assets/icones/heart-pulse-marrom.png",
+      "mode": "100644",
+      "git_blob": "7eebc3d57a0183e18769c2629cecd77b77b99bf2",
+      "sha256": "40cbed186d06db5aac82b044174c77ce54a94d3a3d284f8be7233c92eadfa142",
+      "bytes": 21865
+    },
+    {
+      "path": "assets/icones/heart-pulse-marrom.svg",
+      "mode": "100644",
+      "git_blob": "e5e1e3ad9da16004924fff6b2a8853b5cf6798e6",
+      "sha256": "514d0954bff9cba50c38fe3588d81df499c1332c15df652b8c723a29d843f1bb",
+      "bytes": 508
+    },
+    {
+      "path": "assets/icones/heart-pulse-ouro.png",
+      "mode": "100644",
+      "git_blob": "14c3176f660cf089a4aacff7bc881de3d33bc0f5",
+      "sha256": "bc6e0a5e16e787ea572315f264367bcc015b41f1fdf20fe11c4e8712ec91131b",
+      "bytes": 21550
+    },
+    {
+      "path": "assets/icones/heart-pulse-ouro.svg",
+      "mode": "100644",
+      "git_blob": "cfb257f0ca96edd76aaae59637a6d391b2ece076",
+      "sha256": "61263b313e0554c1b8652a1f9f7a10b3f0596eae7c0c06ce86bb8c06aa2a1b34",
+      "bytes": 508
+    },
+    {
+      "path": "assets/icones/info-branco-quente.png",
+      "mode": "100644",
+      "git_blob": "aa6d9f71db46b4ba9273b8303beb81d9826643c6",
+      "sha256": "be0e594d32c9619680377b0f017c5c7adad08ec69e4a8759c7b022ec53659697",
+      "bytes": 19632
+    },
+    {
+      "path": "assets/icones/info-branco-quente.svg",
+      "mode": "100644",
+      "git_blob": "4942f4ef4b6a25d777134f543b112a18ae0c225a",
+      "sha256": "e50c854ed709824a5382a9eea9b96531365aaee5d975c41e019e5128bc52d0b3",
+      "bytes": 373
+    },
+    {
+      "path": "assets/icones/info-grafite.png",
+      "mode": "100644",
+      "git_blob": "44ba0862cbe8734636c47d642514cf70251899be",
+      "sha256": "bb7f583aa820e906483f779182d34aa94b3d287dbf7d55579acfb7b25b255921",
+      "bytes": 19819
+    },
+    {
+      "path": "assets/icones/info-grafite.svg",
+      "mode": "100644",
+      "git_blob": "1903988aa13368998990afcacffce747b436663c",
+      "sha256": "c6fc48c3fc6bc5a0dedbbeca2c8fc57afe90b558f6d2db89830110222e7df13c",
+      "bytes": 373
+    },
+    {
+      "path": "assets/icones/info-marrom.png",
+      "mode": "100644",
+      "git_blob": "76910d46128c4a0a55a5230acb6973c48ef9a2f6",
+      "sha256": "e79e98bad3b3a091bce12e6defd8a2ff48634261fe6ea4289796c36b2f706d07",
+      "bytes": 19874
+    },
+    {
+      "path": "assets/icones/info-marrom.svg",
+      "mode": "100644",
+      "git_blob": "b28bcdb7170bd008c563ead18c2796251d155210",
+      "sha256": "832147be7904be83c96421d4f3cf1c0af7af7420d31b5986ca5883eb922e7f10",
+      "bytes": 373
+    },
+    {
+      "path": "assets/icones/info-ouro.png",
+      "mode": "100644",
+      "git_blob": "7f4ce72c4ae8861117162f6b0d2bdb52b395d272",
+      "sha256": "2015911b8be7b66ab5593b2f5da920abac7037b177290cba0412ef948e78b4b8",
+      "bytes": 19361
+    },
+    {
+      "path": "assets/icones/info-ouro.svg",
+      "mode": "100644",
+      "git_blob": "f8b86f85e8c8b86e011392b35654cae21fd73a1e",
+      "sha256": "a4c8aabf27a4cc9b1d31f30aba15f8c745057ce88af8f1d0340394742fe6249b",
+      "bytes": 373
+    },
+    {
+      "path": "assets/icones/isc-icones-branco-quente.zip",
+      "mode": "100644",
+      "git_blob": "a6e8eb5e0e58ca87c2fb0e421d8ff1247b1f2234",
+      "sha256": "34bbfb2a520cfbbb88453ffe5c69649b08398283e5a2447fda503e9899918fb8",
+      "bytes": 365091
+    },
+    {
+      "path": "assets/icones/isc-icones-grafite.zip",
+      "mode": "100644",
+      "git_blob": "6678b2ada75ed406df195ad87f6c077ccf7b6e99",
+      "sha256": "91aa55cf282ea9fdaee8e1b0b98356d65fa391761d78f1c916af3c95b995ce53",
+      "bytes": 364307
+    },
+    {
+      "path": "assets/icones/isc-icones-marrom.zip",
+      "mode": "100644",
+      "git_blob": "c3af2f20dfbf076d3f698612d90ac6120c209ee8",
+      "sha256": "cebab7c52fab6a21758edff662a61149602262a55df69652fc0b9f1c8ae00e9a",
+      "bytes": 366991
+    },
+    {
+      "path": "assets/icones/isc-icones-ouro.zip",
+      "mode": "100644",
+      "git_blob": "20f32cf3d3b90e13ffc48d167d609e4f3bbdbe49",
+      "sha256": "0207edf89ba33c0cb22e96b7d3bf37ca884ba29ee896b60609fa834044baf898",
+      "bytes": 361622
+    },
+    {
+      "path": "assets/icones/leaf-branco-quente.png",
+      "mode": "100644",
+      "git_blob": "6bf82192bcd7300e3170d15b4c456999c31c3087",
+      "sha256": "5ebfb8a418beafd8071becf55b3b2d764364d289cc766ebe1c08ebd2351095ed",
+      "bytes": 18042
+    },
+    {
+      "path": "assets/icones/leaf-branco-quente.svg",
+      "mode": "100644",
+      "git_blob": "45f7a9c4fcec93a6a20a3b32a6a9ee8c635167cd",
+      "sha256": "ef99b62124637b57e1b2ddd8ae3b183899b6827ce13e485923c28ac31a8628d5",
+      "bytes": 483
+    },
+    {
+      "path": "assets/icones/leaf-grafite.png",
+      "mode": "100644",
+      "git_blob": "0aa5f5f066edbca5974723934ab5beee612b4737",
+      "sha256": "72406f18549f5962d46bcd49be977f48979100d30520efe7b44c13af08dde132",
+      "bytes": 17929
+    },
+    {
+      "path": "assets/icones/leaf-grafite.svg",
+      "mode": "100644",
+      "git_blob": "8e263959d21eda244501da3755b77087ac051790",
+      "sha256": "a62d0f23ffe402ea253ff1557bbbeaf2c1b2e618f3ac2ea4c561d54ccc4ba238",
+      "bytes": 483
+    },
+    {
+      "path": "assets/icones/leaf-marrom.png",
+      "mode": "100644",
+      "git_blob": "a36d0445eded05293d537ca55357eb9208b932c6",
+      "sha256": "9033b030f682d9e9573a44856cb14c7312792b5dbe3149fe929819add6f45feb",
+      "bytes": 18192
+    },
+    {
+      "path": "assets/icones/leaf-marrom.svg",
+      "mode": "100644",
+      "git_blob": "85a9a9c96b279b4ddba70d901af153cc85c681f0",
+      "sha256": "ff2ad00b1e2b2d595267335ec5b16ce8ac53ac3e937eb07c86d5387a4d1b3634",
+      "bytes": 483
+    },
+    {
+      "path": "assets/icones/leaf-ouro.png",
+      "mode": "100644",
+      "git_blob": "bead67e778f83dfdeacf1259324f1bd17e2c5d4e",
+      "sha256": "fcc1b8a7a5342572b7e8b5563f688e97362c8d97799b3bfd81ae53cd2fb536cf",
+      "bytes": 18084
+    },
+    {
+      "path": "assets/icones/leaf-ouro.svg",
+      "mode": "100644",
+      "git_blob": "08c8836161325ec6cf6a1e397a812070ae692f3b",
+      "sha256": "79fef907f94677493a480ea6e6aadce0fd4852280d27fe05db006bc8fda42354",
+      "bytes": 483
+    },
+    {
+      "path": "assets/icones/lock-branco-quente.png",
+      "mode": "100644",
+      "git_blob": "082d33e53af4fb521372d6d76a435342711e42ea",
+      "sha256": "d95ca3932d4d483e0ec297ee292cebbdfdd85b636a14776ca54119694d8ca15c",
+      "bytes": 7507
+    },
+    {
+      "path": "assets/icones/lock-branco-quente.svg",
+      "mode": "100644",
+      "git_blob": "1914b95041d85562dfc02fa5ba13e65441f1c430",
+      "sha256": "77f902e6bd08b4ab347fc4cde033177e62354fd1a42bc9f051cc7f39bf3c16bf",
+      "bytes": 388
+    },
+    {
+      "path": "assets/icones/lock-grafite.png",
+      "mode": "100644",
+      "git_blob": "e3248569139f775f9c55628795e9b5fc0efcc781",
+      "sha256": "37bcdf8e18c297295af2183527a99a77fb90ee20c3d04a0ec5eb932bb1b00c92",
+      "bytes": 7694
+    },
+    {
+      "path": "assets/icones/lock-grafite.svg",
+      "mode": "100644",
+      "git_blob": "7d608d9e2356ac098f986d5b86b9e2d299be757c",
+      "sha256": "efae383f8f7ce14ea2c1a4b4b8ef40d6785d793da88388766ce92e0720fdab78",
+      "bytes": 388
+    },
+    {
+      "path": "assets/icones/lock-marrom.png",
+      "mode": "100644",
+      "git_blob": "f7628b055218f5c89d03b04196b664ced75ff9f2",
+      "sha256": "db6ed6284a4459358a441c0c426e362f357ff5900a2485edb558e5d584b09841",
+      "bytes": 7750
+    },
+    {
+      "path": "assets/icones/lock-marrom.svg",
+      "mode": "100644",
+      "git_blob": "d87f981481e433ff7e6ae135d76f4c502eb00205",
+      "sha256": "8ac194541f9a8e3ec304bcc4e8298aef5bca6ac3d16e79c4c653daeb8ec14384",
+      "bytes": 388
+    },
+    {
+      "path": "assets/icones/lock-ouro.png",
+      "mode": "100644",
+      "git_blob": "3660612d111310cdabf552850ddb685ac6093249",
+      "sha256": "10a37e0efb2224cc7e5513248beaa7c4b56121add25cef50358dffd2d049241a",
+      "bytes": 7511
+    },
+    {
+      "path": "assets/icones/lock-ouro.svg",
+      "mode": "100644",
+      "git_blob": "2b16064d3f100a4ebcc1e24351e82e76d0724284",
+      "sha256": "20ec51cabbf86e4a003549c237c45289984007ade8b2af4a3d2964f82f9de003",
+      "bytes": 388
+    },
+    {
+      "path": "assets/icones/mail-branco-quente.png",
+      "mode": "100644",
+      "git_blob": "18977ac1e9bc66ab9c5fb01890b794b963f44137",
+      "sha256": "3b0f702a884b5e1839e89cd21a8ea01f59ed8adc02492b344d9a90396d0de4b7",
+      "bytes": 13242
+    },
+    {
+      "path": "assets/icones/mail-branco-quente.svg",
+      "mode": "100644",
+      "git_blob": "2ab910fab043d9e56bf5d1bf4c486d22be9db393",
+      "sha256": "26545ace037020bdd1acc5daf7d269bf88ab22e947919607b14ea4fe78174eb1",
+      "bytes": 395
+    },
+    {
+      "path": "assets/icones/mail-grafite.png",
+      "mode": "100644",
+      "git_blob": "39dd3a7fa59f74872061415b7f5081f8cb8b101f",
+      "sha256": "4498ed1067d203f95449f1781954bf82509690a1f4ebea93783fd607d112ccce",
+      "bytes": 12805
+    },
+    {
+      "path": "assets/icones/mail-grafite.svg",
+      "mode": "100644",
+      "git_blob": "da5eba3df0ec5f1ca72bb557aeec8e7670e4965f",
+      "sha256": "55f12702476538796a5acd9ec1a0451fa7a42e492d8b5d76f38db83ebebef886",
+      "bytes": 395
+    },
+    {
+      "path": "assets/icones/mail-marrom.png",
+      "mode": "100644",
+      "git_blob": "005ed023f43d65b859fee287528f60d120b6140e",
+      "sha256": "0a3033d44db80525ea204da64c7aa6ccd5439bada59fef655f72fb76262f2c7d",
+      "bytes": 12954
+    },
+    {
+      "path": "assets/icones/mail-marrom.svg",
+      "mode": "100644",
+      "git_blob": "89bbe8cee66e63f05fb84e88971dcee459592c55",
+      "sha256": "ded35167970e619c8ee690e198e4705e28053a24eb3583ba91925e7577a6417f",
+      "bytes": 395
+    },
+    {
+      "path": "assets/icones/mail-ouro.png",
+      "mode": "100644",
+      "git_blob": "ff0d1449fee6e36d96b7ed20bfb52e3386faaed3",
+      "sha256": "811ce59368a70fe45d72da6be3650da2c2d4eba874e8a6f17b5b412914651186",
+      "bytes": 13081
+    },
+    {
+      "path": "assets/icones/mail-ouro.svg",
+      "mode": "100644",
+      "git_blob": "c7516e296c4af88008a6275ff10b872ad43fbc44",
+      "sha256": "8aa000e2ebf74dc8f774bbd9bd23e625dec4990d53b8fc10d06cd91bae521e83",
+      "bytes": 395
+    },
+    {
+      "path": "assets/icones/map-pin-branco-quente.png",
+      "mode": "100644",
+      "git_blob": "7104c627a0f42ae3e02ffcc1ca1fe904fc501136",
+      "sha256": "9816b2159d98dddcc9285b67c1cbfd0fa196f4c40a833269293d7506a1548873",
+      "bytes": 22492
+    },
+    {
+      "path": "assets/icones/map-pin-branco-quente.svg",
+      "mode": "100644",
+      "git_blob": "edf8354dace832af3841a94558d904191c46b518",
+      "sha256": "a6727d72ccc092a9b9dfda42c4b131df25c8503de8c40e201bd060d88e5f6d29",
+      "bytes": 438
+    },
+    {
+      "path": "assets/icones/map-pin-grafite.png",
+      "mode": "100644",
+      "git_blob": "272916a3028daa9f2f58f4a0bb46c01108c38536",
+      "sha256": "e60dea25fdd1334c462f342397535675d4c8c285df7fac0fdee3f5c65b04ba38",
+      "bytes": 22597
+    },
+    {
+      "path": "assets/icones/map-pin-grafite.svg",
+      "mode": "100644",
+      "git_blob": "18d91ce26ba14c376169747eef085ce3f9fea8c5",
+      "sha256": "26bc9bd78459c51118f49d5d716c30f151cd0eaf9664e6a1593fcd86caad86ea",
+      "bytes": 438
+    },
+    {
+      "path": "assets/icones/map-pin-marrom.png",
+      "mode": "100644",
+      "git_blob": "eec2997ba386b539fc5e29cf4a644b943adbcb86",
+      "sha256": "1da9a59a15fcc06c5d5e2839b9b3993de3bf32060f6cc0f7cb4f43d50eab9f22",
+      "bytes": 22777
+    },
+    {
+      "path": "assets/icones/map-pin-marrom.svg",
+      "mode": "100644",
+      "git_blob": "f853fe9bea85aba6016fc737af8a41a8457b5ce9",
+      "sha256": "45868649fde1c069bf0140fcf7be4719ff36de24d5cef4485adc9486d34d3263",
+      "bytes": 438
+    },
+    {
+      "path": "assets/icones/map-pin-ouro.png",
+      "mode": "100644",
+      "git_blob": "a81bb6b10c76f368f498dcc336a340b0ac434533",
+      "sha256": "90955dcfa049723e4bfa73cd5ab90cc5996380f1ab9540fdcdc450ea72fb9c7d",
+      "bytes": 22394
+    },
+    {
+      "path": "assets/icones/map-pin-ouro.svg",
+      "mode": "100644",
+      "git_blob": "1be301556b764e96f0da85944a2f0b8a55d3ff2d",
+      "sha256": "f3548d4cdf54b4a8634b478e23ca3cf919d29e65857c38c666387f811c3fc3f2",
+      "bytes": 438
+    },
+    {
+      "path": "assets/icones/message-circle-branco-quente.png",
+      "mode": "100644",
+      "git_blob": "61057176e5375db22eb4dd888b61c231ea1ec53c",
+      "sha256": "9e8e978c3430bb05c2805837abc77cccf46725078aca96c1d32d468734b262e1",
+      "bytes": 19125
+    },
+    {
+      "path": "assets/icones/message-circle-branco-quente.svg",
+      "mode": "100644",
+      "git_blob": "f857c250b17d2dc8c8f201f3b7f9f689916d1968",
+      "sha256": "e513c220ad17d96422e81e27469e5f014864edbc263d9dad129e25ba126666e2",
+      "bytes": 426
+    },
+    {
+      "path": "assets/icones/message-circle-grafite.png",
+      "mode": "100644",
+      "git_blob": "594871128241ff8bd7f529bdd9a67031007efcd8",
+      "sha256": "41e0921fe4139e5352345fe134fb32a4eb8aa8d078eefefaac8100cd13bb6b6d",
+      "bytes": 19035
+    },
+    {
+      "path": "assets/icones/message-circle-grafite.svg",
+      "mode": "100644",
+      "git_blob": "06a59195efeaab8c59d2a9f930ff19142afb2f93",
+      "sha256": "1e529a66289e42470b3df9e6e4e1c4ff352ed58280dfb44c5fc56e10435bce76",
+      "bytes": 426
+    },
+    {
+      "path": "assets/icones/message-circle-marrom.png",
+      "mode": "100644",
+      "git_blob": "1ad7e0893a1ef24fc3102c63f6ff553f5b324788",
+      "sha256": "c0c165076f0f4c3e7f5ba392b82708540a48361e9276eb9bbf0d1f0423f75b22",
+      "bytes": 19244
+    },
+    {
+      "path": "assets/icones/message-circle-marrom.svg",
+      "mode": "100644",
+      "git_blob": "ef9c3d679684a8aba08d95d34b08fd7f2a3e7433",
+      "sha256": "4eecced27f96e4d244772f51c1eacf6df1d49f77b1d7e6d9cba7b1414adbf411",
+      "bytes": 426
+    },
+    {
+      "path": "assets/icones/message-circle-ouro.png",
+      "mode": "100644",
+      "git_blob": "8a51f6be8849dd5096d808dcae16fe3c61bd1f01",
+      "sha256": "2a6249c7137d89b68df7b546b5b8b72fa03998c79d4f357e7c0d7bb6b2749946",
+      "bytes": 19228
+    },
+    {
+      "path": "assets/icones/message-circle-ouro.svg",
+      "mode": "100644",
+      "git_blob": "c9e9f970bf3a43a982d3681f02c74f2f8a78b0c2",
+      "sha256": "f1a34628692fac1ca7d99bd637ea67a7159b65784737a6bbb142588fea6667b3",
+      "bytes": 426
+    },
+    {
+      "path": "assets/icones/message-circle-question-branco-quente.png",
+      "mode": "100644",
+      "git_blob": "af5b6bb6c502b731cde37091cf78e1412e8c4dcb",
+      "sha256": "58f9466de93e52b8c4c0956e9e20b275befdb6aca1d4782f1d92f85acdeea4e7",
+      "bytes": 21177
+    },
+    {
+      "path": "assets/icones/message-circle-question-branco-quente.svg",
+      "mode": "100644",
+      "git_blob": "023c23f0389817713f971658a92c728392ab528c",
+      "sha256": "38349f69c4ec578a8e2cdf92fdc76c5534bace235e5f2203d7c43979df8ec6ba",
+      "bytes": 411
+    },
+    {
+      "path": "assets/icones/message-circle-question-grafite.png",
+      "mode": "100644",
+      "git_blob": "d489f9233df3ad8446eff8138a9070f73e0913c4",
+      "sha256": "c7491ff302e6f621f7a743ab3a0d695efca4091cf7f20b7d163d124196fdd3df",
+      "bytes": 21253
+    },
+    {
+      "path": "assets/icones/message-circle-question-grafite.svg",
+      "mode": "100644",
+      "git_blob": "6820832d62ff6321b1e6bc05efb5568d3acd8dcd",
+      "sha256": "3a179ea2019f93983456f5cb7e8f2c0e939179c8e3b07380aed2f07d2cd60929",
+      "bytes": 411
+    },
+    {
+      "path": "assets/icones/message-circle-question-marrom.png",
+      "mode": "100644",
+      "git_blob": "053d6dc2b95e3d18cee9636c70573c21474181e3",
+      "sha256": "db052053e7fbc965a458b6f3a61450e8b4cc182e852166e86a62394593357c34",
+      "bytes": 21527
+    },
+    {
+      "path": "assets/icones/message-circle-question-marrom.svg",
+      "mode": "100644",
+      "git_blob": "635ac004c23070ef74a79755c3b4ed2b58cef46b",
+      "sha256": "61f8b4cdc69bd40fd31a8762ea2902720e448833409f8fa393296060de4a2a7d",
+      "bytes": 411
+    },
+    {
+      "path": "assets/icones/message-circle-question-ouro.png",
+      "mode": "100644",
+      "git_blob": "92d5aa5e8717e347adff6c84d7e7b389d65fa851",
+      "sha256": "d3496604a3ee55be22ed4f16706cc9062fb5d04d03a8d3828bddbb8a4f33d327",
+      "bytes": 21339
+    },
+    {
+      "path": "assets/icones/message-circle-question-ouro.svg",
+      "mode": "100644",
+      "git_blob": "09f42d9b1f17a4ff1d7f27916f8f37d3a44c13cb",
+      "sha256": "cc0b7a6593e7c32ceeac999020cedd7b1f94a8b40f44d5dca4c800384a517541",
+      "bytes": 411
+    },
+    {
+      "path": "assets/icones/phone-branco-quente.png",
+      "mode": "100644",
+      "git_blob": "408d2cf336cc29c040aeecc5ff339e988d539932",
+      "sha256": "3d78a848c86e2fa4cdde04d385062248df4c1d9a4bf8c55942c071df695e6d98",
+      "bytes": 18731
+    },
+    {
+      "path": "assets/icones/phone-branco-quente.svg",
+      "mode": "100644",
+      "git_blob": "303ed73820f8f5fa2da99d7b869aa6be8c755b01",
+      "sha256": "28c6ae4811e268a58ce0bdbdaf8caee45e9823b51364778ca6635d237e46f504",
+      "bytes": 516
+    },
+    {
+      "path": "assets/icones/phone-grafite.png",
+      "mode": "100644",
+      "git_blob": "db334792e0096de25e41e99717ebc953d14eeb55",
+      "sha256": "20cb53dd1eb104d4f1e4f3b51dd1ade602a7a8bb9350b4f49a44b6bb59e41918",
+      "bytes": 19494
+    },
+    {
+      "path": "assets/icones/phone-grafite.svg",
+      "mode": "100644",
+      "git_blob": "9b15ee355ec6b8fb0098f503fc0cd64fa0e85ce9",
+      "sha256": "69214dabd5501511a0eb02d56ba5d8e21325f74e21968101a7d9f4cc86b8caf5",
+      "bytes": 516
+    },
+    {
+      "path": "assets/icones/phone-marrom.png",
+      "mode": "100644",
+      "git_blob": "d224bc55da7dbec92a4b4a48a60f0e72c5bb2280",
+      "sha256": "5c925dd10f9d8e3584dcf31c620e6f71743236ed86de83376f4dcf49b0e5c450",
+      "bytes": 19453
+    },
+    {
+      "path": "assets/icones/phone-marrom.svg",
+      "mode": "100644",
+      "git_blob": "3b526924561c8148acd29dc49fd4bcceccf19f1f",
+      "sha256": "6cdfb563e4cdc7eab7d1825a971540e3062d9c96953b772102fb018e10bc803a",
+      "bytes": 516
+    },
+    {
+      "path": "assets/icones/phone-ouro.png",
+      "mode": "100644",
+      "git_blob": "e82d4a4d1cc5a3d564a24bf286ec2a341b5a2e2c",
+      "sha256": "07e5b69c78af4afcc544fed4ddfcea0cc58cc0fea383520f48f6bd322f180c02",
+      "bytes": 18624
+    },
+    {
+      "path": "assets/icones/phone-ouro.svg",
+      "mode": "100644",
+      "git_blob": "c784c5b72ade6eee46bdbfcf8ec83eda90f5968a",
+      "sha256": "64a21473242505e4dcd2fdf08128d19922422a17732fcf89a68ca2123668da02",
+      "bytes": 516
+    },
+    {
+      "path": "assets/icones/play-branco-quente.png",
+      "mode": "100644",
+      "git_blob": "37902f49b1e6a59bc8cf5cd0f229c422e0631a08",
+      "sha256": "2a93e91baf8de8445033b7bc5c7c23f1873d5a6364eee8a94341b73563123720",
+      "bytes": 14716
+    },
+    {
+      "path": "assets/icones/play-branco-quente.svg",
+      "mode": "100644",
+      "git_blob": "694cd4bf84874c68e2ed6729fec5e72655492d9e",
+      "sha256": "085071dd3ef03823fb6a4db25f692f5f47e3fdced590298f5d7258f066e9febb",
+      "bytes": 385
+    },
+    {
+      "path": "assets/icones/play-grafite.png",
+      "mode": "100644",
+      "git_blob": "99cbb33d596310b340b82b9222b71a7f4ae45458",
+      "sha256": "21a5ab91817a1a3984fe67752c8c05c6c272f8dd033b1efe723900d8cbafca9c",
+      "bytes": 14411
+    },
+    {
+      "path": "assets/icones/play-grafite.svg",
+      "mode": "100644",
+      "git_blob": "9906a5042736426e70f2c2d2535efd3a069bf0a5",
+      "sha256": "714a92368b39d92aad089f57fa132c7765bd52d07e67ad93ddb033c21d090e81",
+      "bytes": 385
+    },
+    {
+      "path": "assets/icones/play-marrom.png",
+      "mode": "100644",
+      "git_blob": "b5777bf270b2d26fbd2c65c0c285316f5b2be544",
+      "sha256": "a8ee40889b0f526c65a44b25cc2a65de890a056e4b4c92ea022663dc6aee657f",
+      "bytes": 14537
+    },
+    {
+      "path": "assets/icones/play-marrom.svg",
+      "mode": "100644",
+      "git_blob": "e965140840ac519fc3fdc04661a0aacf491d275e",
+      "sha256": "4a9cf47860d0ec88aec52e4816f803def9cfe8cf83ff27c06eec7b030688d484",
+      "bytes": 385
+    },
+    {
+      "path": "assets/icones/play-ouro.png",
+      "mode": "100644",
+      "git_blob": "5582f52b08abdcb4b3f6b89ad70b23d8ffe0bc24",
+      "sha256": "e7b13a797a69184b63f1ec28950d0970e1ab91957e77f1bd0d53e64639764d40",
+      "bytes": 14635
+    },
+    {
+      "path": "assets/icones/play-ouro.svg",
+      "mode": "100644",
+      "git_blob": "045a8878c6a8f1a0efc69d7b2018546bd1058ecc",
+      "sha256": "6ee938b1b167cf8719307deb1410509a4609b6b032f179d04b5294f42cfb28ce",
+      "bytes": 385
+    },
+    {
+      "path": "assets/icones/stethoscope-branco-quente.png",
+      "mode": "100644",
+      "git_blob": "7a33e9f2d3fbf83eb8ef3da1ecbdeec1c349a58a",
+      "sha256": "318a9618212613daa8e51274c56926461fe5c5b172cfab7c705a8b7e64ce5765",
+      "bytes": 17452
+    },
+    {
+      "path": "assets/icones/stethoscope-branco-quente.svg",
+      "mode": "100644",
+      "git_blob": "1ccd421323a043b7467ecc40df71c1366b3de50c",
+      "sha256": "5440d5d3193541d9062a2ca3a926d98d7ccea8a78ca6fde4a69dbb36eefb6506",
+      "bytes": 478
+    },
+    {
+      "path": "assets/icones/stethoscope-grafite.png",
+      "mode": "100644",
+      "git_blob": "c0196988eb9d7759f8c60ece18adff5473a6c8e3",
+      "sha256": "d5eedfe4500253e505185de8ad0d464d07b5a94c6f3719a6462dbfd44f1d37e0",
+      "bytes": 17415
+    },
+    {
+      "path": "assets/icones/stethoscope-grafite.svg",
+      "mode": "100644",
+      "git_blob": "bc9c32f0c646c8a81a3cfac54bf2e52e7974ae07",
+      "sha256": "a22e4c363197b78ad845148992b65beb3d32a00f348469c06befeff85e89712b",
+      "bytes": 478
+    },
+    {
+      "path": "assets/icones/stethoscope-marrom.png",
+      "mode": "100644",
+      "git_blob": "427a3732cf42cc24de4f3787120667f78c711eb8",
+      "sha256": "187bebfbe8515281e520d79055d69ca722d5b3f124a4b3ae2c3bc04a2f738ea8",
+      "bytes": 17590
+    },
+    {
+      "path": "assets/icones/stethoscope-marrom.svg",
+      "mode": "100644",
+      "git_blob": "ca2a8d86291fd19a27f2603a0990a6f867b5bd1f",
+      "sha256": "50ad0acf16eae07078285c82f42412e4d768104ab3bfb24b085d0cc814a42a4d",
+      "bytes": 478
+    },
+    {
+      "path": "assets/icones/stethoscope-ouro.png",
+      "mode": "100644",
+      "git_blob": "d09c479b374d3a63fd85128b70a03f0b62b201a6",
+      "sha256": "57d4230cef69a03b95a1ee8e52ce0b2e9b1e079dc0d4ac254754ed3b129fd743",
+      "bytes": 17506
+    },
+    {
+      "path": "assets/icones/stethoscope-ouro.svg",
+      "mode": "100644",
+      "git_blob": "0ec83d42c16307e05444818648837a8f5b84d804",
+      "sha256": "f8ff0874a8fd369c360e4493183191519d60232e8db5e86751aa669ca375fe0d",
+      "bytes": 478
+    },
+    {
+      "path": "assets/icones/test-tube-branco-quente.png",
+      "mode": "100644",
+      "git_blob": "3e2aaac8da61c82644452aae4c4d3b73c7a9952a",
+      "sha256": "9d6bf045c96ca863fcb54be6702a93a276e8969e94184e153b1b090b184a1295",
+      "bytes": 4116
+    },
+    {
+      "path": "assets/icones/test-tube-branco-quente.svg",
+      "mode": "100644",
+      "git_blob": "4163d658a6ef9ae656f0f92bfa0d8a6a8e560b8e",
+      "sha256": "035846420c0120e7ba879a16c1156cf5fd2a06295616de879ff4b9f434056f14",
+      "bytes": 413
+    },
+    {
+      "path": "assets/icones/test-tube-grafite.png",
+      "mode": "100644",
+      "git_blob": "37f8b3fbed29324cbdfb471f3282385466707324",
+      "sha256": "04f7132f407f6e0d89d0dbabf8a572a19aedee13338ea907ebb6ddfba977d1c4",
+      "bytes": 4164
+    },
+    {
+      "path": "assets/icones/test-tube-grafite.svg",
+      "mode": "100644",
+      "git_blob": "429bf0ae93376ec3a1c7ab38a636080468a1ca0a",
+      "sha256": "d9b3ce215dd671e9b15bd80177db0d96fc79ed80506d77d741f11a18c1ae1899",
+      "bytes": 413
+    },
+    {
+      "path": "assets/icones/test-tube-marrom.png",
+      "mode": "100644",
+      "git_blob": "4795f2890d09e58d7357ada0d593bc69ddedc77b",
+      "sha256": "a57594b3971870948f5d1283fe3c89d78b8336ab844470ebbab24a9d126ff395",
+      "bytes": 4226
+    },
+    {
+      "path": "assets/icones/test-tube-marrom.svg",
+      "mode": "100644",
+      "git_blob": "381c8354d1dd15ce275acd745a8569c499b786c8",
+      "sha256": "c31d07094f68339746f03348555161d45f64ea50111a4c8e69b28ecbbfc47b34",
+      "bytes": 413
+    },
+    {
+      "path": "assets/icones/test-tube-ouro.png",
+      "mode": "100644",
+      "git_blob": "dd624caa896620dc50a506056e7b8cabdacddb3d",
+      "sha256": "962936a3a0e26d1c816f7ac77c0e5012f7c67f2cd8edfa66f8de49e124a276e6",
+      "bytes": 4062
+    },
+    {
+      "path": "assets/icones/test-tube-ouro.svg",
+      "mode": "100644",
+      "git_blob": "75370ea38604f505b4402d4f05be9ab3c9d8478d",
+      "sha256": "9123bd86510dc26fd1ce2132699fc8b357def1151a79bc9d2cff3d9bf51cf204",
+      "bytes": 413
+    },
+    {
+      "path": "assets/icones/triangle-alert-branco-quente.png",
+      "mode": "100644",
+      "git_blob": "44f978f244d4f2d9880ffb52fb69017a8f12b691",
+      "sha256": "852a39b819edd3f86f39d61d70825add6dd081982cf7d332dfe86ee646f59c53",
+      "bytes": 16731
+    },
+    {
+      "path": "assets/icones/triangle-alert-branco-quente.svg",
+      "mode": "100644",
+      "git_blob": "2c862f219dc665bbaa5fd242ed806e5026c5cf9c",
+      "sha256": "292e0751b664c66e4d81c02e11b3ed9dce99dba9c87ed0c489ed899e564d7c38",
+      "bytes": 424
+    },
+    {
+      "path": "assets/icones/triangle-alert-grafite.png",
+      "mode": "100644",
+      "git_blob": "031795137f1b839381e7bfa2a400bce6210f5731",
+      "sha256": "2ea2ee678fe2165f3bbf9b2e9d056b80162f40bb48eb3cce9dbcb7427ee379c0",
+      "bytes": 16199
+    },
+    {
+      "path": "assets/icones/triangle-alert-grafite.svg",
+      "mode": "100644",
+      "git_blob": "7345e5829dad528018cf80c0224bb34310d8b3f9",
+      "sha256": "6c5107a3171ea053ba4ff50d786dd7616d8d4b421556649d1e061f8345109487",
+      "bytes": 424
+    },
+    {
+      "path": "assets/icones/triangle-alert-marrom.png",
+      "mode": "100644",
+      "git_blob": "9064a57d89890b2aeaa04cb146e4ab9a8b5ec5ef",
+      "sha256": "2802883eaf99702fe9dfd527943e64bc80692b4c5789ff6db187cd6d22a577fb",
+      "bytes": 16376
+    },
+    {
+      "path": "assets/icones/triangle-alert-marrom.svg",
+      "mode": "100644",
+      "git_blob": "1161caa636c264fba7de9a3d3afccb0a12d7efe3",
+      "sha256": "df0d76243aecbd28aafd0a30b27086edcf12119f1f7cd04c59d6c7c8eb82ddfc",
+      "bytes": 424
+    },
+    {
+      "path": "assets/icones/triangle-alert-ouro.png",
+      "mode": "100644",
+      "git_blob": "177df02c6b299e6e19701adc2c4b15440a81e9c5",
+      "sha256": "4b9dadd84c1e66c6d8925ce0c386d80b3b92d8c58c70f5bad21a8fa2b5f967f7",
+      "bytes": 16628
+    },
+    {
+      "path": "assets/icones/triangle-alert-ouro.svg",
+      "mode": "100644",
+      "git_blob": "893c73b21e5057bdcd9882803a49421b62bffbe8",
+      "sha256": "7772015c1ce48b3061f6a0217280dd65a93d7761aeb69a412fd1b19a5091e0b0",
+      "bytes": 424
+    },
+    {
+      "path": "assets/icones/user-branco-quente.png",
+      "mode": "100644",
+      "git_blob": "eb6fd51cad82c6ab5509988429d09144434cd20d",
+      "sha256": "86ad084a04dc93a3552a5199f4f03a3ed18ec2153c5c736aeead12d6371dbe0f",
+      "bytes": 10394
+    },
+    {
+      "path": "assets/icones/user-branco-quente.svg",
+      "mode": "100644",
+      "git_blob": "6b70a38af8086cd43340bd6ea0dbcea80dc91436",
+      "sha256": "75709aec5c0c3ba7b7a72486308012d0310bfc479daaae998815ea427bb8b191",
+      "bytes": 378
+    },
+    {
+      "path": "assets/icones/user-grafite.png",
+      "mode": "100644",
+      "git_blob": "c04377536b28b8777380f449bb853b6094cef30d",
+      "sha256": "359e5fa3c1c2dbe40be88913079bdf3aee262053885dd169985b1f4af572aa8d",
+      "bytes": 10442
+    },
+    {
+      "path": "assets/icones/user-grafite.svg",
+      "mode": "100644",
+      "git_blob": "7539fa54ab58e744d9af30e852fb0e9fe853dc7a",
+      "sha256": "5b06e77403996646a52d51267bb9de51adbef6ce368f0029ec3158054e41ca1c",
+      "bytes": 378
+    },
+    {
+      "path": "assets/icones/user-marrom.png",
+      "mode": "100644",
+      "git_blob": "a575cd384b1abbdf7f7b053d47da723a89fb07fa",
+      "sha256": "8d42f5b178ac7279596095ec88acf20a37528cdf5a96a97edb3c676597252e23",
+      "bytes": 10574
+    },
+    {
+      "path": "assets/icones/user-marrom.svg",
+      "mode": "100644",
+      "git_blob": "6f8badcb3e6b59b214cbb2aeeddfb3a6febbd0e9",
+      "sha256": "f459bd87c320d2531739468b5ac414f230605303b346432177288e2ce3404b03",
+      "bytes": 378
+    },
+    {
+      "path": "assets/icones/user-ouro.png",
+      "mode": "100644",
+      "git_blob": "3388899bd1856b176a9c4377c58cee11500d8111",
+      "sha256": "a600dd174be94f5907013e191b673de414667fa34fb7cb24d3892b529e9a624a",
+      "bytes": 10244
+    },
+    {
+      "path": "assets/icones/user-ouro.svg",
+      "mode": "100644",
+      "git_blob": "562a8da39201020c6868fe5900b770a6946c6226",
+      "sha256": "de8582b360ff6925870cab87a0234fa048bf915ff236a52697904412194aad98",
+      "bytes": 378
+    },
+    {
+      "path": "assets/icones/users-branco-quente.png",
+      "mode": "100644",
+      "git_blob": "3232fa532ae58c0aa8fdee87ebb38889ac7f0c98",
+      "sha256": "645d3c9faf9896feeea0943bdab356f48ac2026dbb2ba66c4c426bcda63ca470",
+      "bytes": 12597
+    },
+    {
+      "path": "assets/icones/users-branco-quente.svg",
+      "mode": "100644",
+      "git_blob": "045fefb2230817a147ca2acbc7900992d62b2cf8",
+      "sha256": "c1c8b98794566b93ebd749ae49b1e44bf43eb8d2f3d70eb246accc3bc6f16152",
+      "bytes": 462
+    },
+    {
+      "path": "assets/icones/users-grafite.png",
+      "mode": "100644",
+      "git_blob": "779b3a273b7daf5b51f35747663e3444b95cc001",
+      "sha256": "01dda0ea956bfd7826093541b99f653a61917d8deb09cabb1cdfd71733afa810",
+      "bytes": 12858
+    },
+    {
+      "path": "assets/icones/users-grafite.svg",
+      "mode": "100644",
+      "git_blob": "a22943201b725ccb25ed36774830d358b890d147",
+      "sha256": "a6b9dff476dc2b7dca5ffc9773fac741b0b9628c2731627c33fac1cf05eccaa0",
+      "bytes": 462
+    },
+    {
+      "path": "assets/icones/users-marrom.png",
+      "mode": "100644",
+      "git_blob": "a8322637c184d05d81cd226579b38a732ab63f4a",
+      "sha256": "817596c1bc8aed1ce5f3c8ba0b248b7a8f7d716d23e9f8efb47fd00ae94316ed",
+      "bytes": 13060
+    },
+    {
+      "path": "assets/icones/users-marrom.svg",
+      "mode": "100644",
+      "git_blob": "ebb52eb90bdc50925adf280b99fb0d53e4c90436",
+      "sha256": "8b7efa1286d4a19c0103fff966c048af6695dbdbabe2808e4f26e8dee63fd665",
+      "bytes": 462
+    },
+    {
+      "path": "assets/icones/users-ouro.png",
+      "mode": "100644",
+      "git_blob": "5dc2e4080adb5800ee13dc090efe05b67cc9a6db",
+      "sha256": "8dff0fa8b96de449d85e44bf7f86f7034b038f2959ef2fbc01783dcdb452d825",
+      "bytes": 12392
+    },
+    {
+      "path": "assets/icones/users-ouro.svg",
+      "mode": "100644",
+      "git_blob": "3d513bb61d941c7aeaa70b0380a640c83cec9d6b",
+      "sha256": "47353939941cca23199918908eedcc3225bf016500beed67b492f2274f42f6cb",
+      "bytes": 462
+    },
+    {
+      "path": "assets/isc-avatar-1080.png",
+      "mode": "100644",
+      "git_blob": "9f3eed7c9e47ac2f9fbd3f984d4a8e449bf61b2d",
+      "sha256": "7554c5ab3cb211455c659ee3ce1e5c2b780b6e14a386ede8fd4d8bdb859a2b0b",
+      "bytes": 161948
+    },
+    {
+      "path": "assets/isc-avatar-640.png",
+      "mode": "100644",
+      "git_blob": "eff7a8d2c471fc104ab83959798e910ace350ff2",
+      "sha256": "8cbfbab7a1f18821de0c682e9653218186678dede7c47dafbdc8aebd24dd8569",
+      "bytes": 80815
+    },
+    {
+      "path": "assets/isc-avatar.svg",
+      "mode": "100644",
+      "git_blob": "02d5510160905bb67b66b25253433e801339f226",
+      "sha256": "90dc582ec97d8b50808c3c22801bf6ea3678ba771dfcb1c641094eb21405ff7e",
+      "bytes": 154583
+    },
+    {
+      "path": "assets/isc-compartilhamento-1200x630.png",
+      "mode": "100644",
+      "git_blob": "bfb66d8c9971cbe5c6c9a9fef8c6c15da6732967",
+      "sha256": "c0bda84c29194e663949e0b124232ab00e99e7488845baa149c2550cbc487d83",
+      "bytes": 43948
+    },
+    {
+      "path": "assets/isc-favicon-180.png",
+      "mode": "100644",
+      "git_blob": "efc47050dce2bbb390419edd2ebb2b3957561b47",
+      "sha256": "97825eb461d874e1ec62e36b7d4eb251c0f59a9731ec9afc01dcac71504ee28c",
+      "bytes": 14263
+    },
+    {
+      "path": "assets/isc-favicon-32.png",
+      "mode": "100644",
+      "git_blob": "283579330d31a58ef070b02aac68508a603e3f2d",
+      "sha256": "ad90cc44235f10db85ee7d0ad849533b73780d7036c8a0e634a25632436fd136",
+      "bytes": 1741
+    },
+    {
+      "path": "assets/isc-favicon-512.png",
+      "mode": "100644",
+      "git_blob": "6b303f1d94746656adc65b44d05f0f4c32037efe",
+      "sha256": "eca783b7b2c53ef84cfe61a00d13e8f866660fc208703a10ef4336f0ce0e2dce",
+      "bytes": 60932
+    },
+    {
+      "path": "assets/isc-favicon.svg",
+      "mode": "100644",
+      "git_blob": "93aa36323861dc7d32526da3e6c04773c575fef2",
+      "sha256": "c441bbe18b3144c4ec425b2fdbd44e224f4f8aa1fbe0d5ef12ebd4ee61e28d2d",
+      "bytes": 72474
+    },
+    {
+      "path": "assets/isc-horizontal-branco-web.png",
+      "mode": "100644",
+      "git_blob": "3b2023faaaf19775b749a759af11a3903700048c",
+      "sha256": "f4e175e862dfdf119080a3cefa797b8590b9e4a4485555fbeed4e00a8f43eee3",
+      "bytes": 48950
+    },
+    {
+      "path": "assets/isc-horizontal-branco.png",
+      "mode": "100644",
+      "git_blob": "46cad18a91f71ee6d5460f4ea68f68beb3cf9bd5",
+      "sha256": "4428747faedc8015527256e7df385286d142e61817e9e6dcba052519954b7a40",
+      "bytes": 141635
+    },
+    {
+      "path": "assets/isc-horizontal-branco.svg",
+      "mode": "100644",
+      "git_blob": "20685cb3c8c82495acbaee27f8ab25cd03e83c16",
+      "sha256": "b7a3d9a60a6ea4a44833d2b139289b8f775e70fe1dcd15344cc93b6917098c74",
+      "bytes": 30487
+    },
+    {
+      "path": "assets/isc-horizontal-ouro-chapado-web.png",
+      "mode": "100644",
+      "git_blob": "9b9a621c55e8cbaf3681b29371b5de154b011515",
+      "sha256": "7c4f4c8a817a256ed5453438e46d1b410d7f12220f020d4dd07bf22ca039e0e4",
+      "bytes": 66695
+    },
+    {
+      "path": "assets/isc-horizontal-ouro-chapado.png",
+      "mode": "100644",
+      "git_blob": "7b7cee5eac80cd8439ba05f18f4913692d587368",
+      "sha256": "a488404022fddefe427a346c942e3ef8c6d75c23f18b2fb749aaf34947e931d1",
+      "bytes": 185156
+    },
+    {
+      "path": "assets/isc-horizontal-ouro-chapado.svg",
+      "mode": "100644",
+      "git_blob": "6c9192884bfe67a6708691723704c5be6e3f2013",
+      "sha256": "d51a77e30ac74e2183042b1543faa63673399eac32cc8929ffa07de6459f8c69",
+      "bytes": 30487
+    },
+    {
+      "path": "assets/isc-horizontal-ouro-fundo.png",
+      "mode": "100644",
+      "git_blob": "c4cf41a4b11cfb30aa50995f0875461a73980345",
+      "sha256": "8e7fe9c912c26bedcece2857143830faf30dbfe9752664bad3276eddda787dd5",
+      "bytes": 257133
+    },
+    {
+      "path": "assets/isc-horizontal-ouro-fundo.svg",
+      "mode": "100644",
+      "git_blob": "ddcb8e54099e9a7ef833ff32efa42c8f5cba53e4",
+      "sha256": "c601c61413cd67092d510822b5197cc711bce50a519a0f3486481860be817376",
+      "bytes": 154781
+    },
+    {
+      "path": "assets/isc-horizontal-ouro-web.png",
+      "mode": "100644",
+      "git_blob": "d38adcfd03a3e5457edb78f736dfb097e677b124",
+      "sha256": "2f8431d690bf34a7dcdc7c801d7e5db432d33062f1481a45e593e8149d3f7c77",
+      "bytes": 127803
+    },
+    {
+      "path": "assets/isc-horizontal-ouro.png",
+      "mode": "100644",
+      "git_blob": "24ef2255fe265e44f1afea8b4fb8241a3c78b365",
+      "sha256": "bbfd6130bb81e9c9efd1f4e19dd8630c84a2e133106c49d48f2e67957df56ee6",
+      "bytes": 444136
+    },
+    {
+      "path": "assets/isc-horizontal-ouro.svg",
+      "mode": "100644",
+      "git_blob": "daf2ffa0065e126bf79a52cf61b2a956a191928a",
+      "sha256": "7b386c03a36f86bc0495f62261429d1afa5da3e3ef49e5467351aaa2063746f5",
+      "bytes": 154716
+    },
+    {
+      "path": "assets/isc-horizontal-preto-web.png",
+      "mode": "100644",
+      "git_blob": "012c944194bf791869ee32d379d1fc84bb759742",
+      "sha256": "f4ca3a5a49550571d68afafab76c08f6b6239b77db01310dd5355b83b41ff71b",
+      "bytes": 64564
+    },
+    {
+      "path": "assets/isc-horizontal-preto.png",
+      "mode": "100644",
+      "git_blob": "a1aa42cfc1daf9310b3f9ccf0b2eb5fa85290cc9",
+      "sha256": "6ef16ca5334d9b5a2d5a1f2e635b494c74c81b79e58bf10a1ec44a5e1c52f2b6",
+      "bytes": 179861
+    },
+    {
+      "path": "assets/isc-horizontal-preto.svg",
+      "mode": "100644",
+      "git_blob": "eb6e5c3de88f32624673503b29f835316a1c01c6",
+      "sha256": "6a70a8ada62ced4e4adf88c89d082471e6b99e4dd74ec13913dfe9a76b2a3177",
+      "bytes": 30487
+    },
+    {
+      "path": "assets/isc-simbolo-branco-web.png",
+      "mode": "100644",
+      "git_blob": "514096896b0d7a8fd2da5b5841d323a4b55b81d3",
+      "sha256": "73648ea8ff8f4f5692e4aa8184ee09711787b32dc6f1ee49a9ffe2777c6ba38f",
+      "bytes": 40335
+    },
+    {
+      "path": "assets/isc-simbolo-branco.png",
+      "mode": "100644",
+      "git_blob": "1b314bff7a5a1979666dcb88d2f0a2038634c924",
+      "sha256": "68409f250624e0de74a03b659379ee21735163ff3918e6512f63b8665bd35194",
+      "bytes": 117090
+    },
+    {
+      "path": "assets/isc-simbolo-branco.svg",
+      "mode": "100644",
+      "git_blob": "ac9311ec5f8af109431ca69ce42e7014f10003e4",
+      "sha256": "5891ddcac54acb8dd79b03646ca4b70d960dad9a3242989a9e0560bbd468dcc3",
+      "bytes": 15335
+    },
+    {
+      "path": "assets/isc-simbolo-ouro-chapado-web.png",
+      "mode": "100644",
+      "git_blob": "d78939c05fc043774307d668657a9ebd37815c1a",
+      "sha256": "f7db627638769d23865212a6fe9b25e0b839ec0754a51cf14544135d245f8992",
+      "bytes": 52144
+    },
+    {
+      "path": "assets/isc-simbolo-ouro-chapado.png",
+      "mode": "100644",
+      "git_blob": "f3ea8dcc9c0ddbcf01f6ba3940e4cc1c97bb0c4c",
+      "sha256": "fa212176324c0371551faee051475367e096f340a9f022534f7141ba1f27b34c",
+      "bytes": 148730
+    },
+    {
+      "path": "assets/isc-simbolo-ouro-chapado.svg",
+      "mode": "100644",
+      "git_blob": "fe3c24a3660a2c5360fee37b17b18b5f84db532f",
+      "sha256": "d1c992ddc85055232b2ab0498fdb55acd5cc0fffc939d23863ccbbefcf78661b",
+      "bytes": 15335
+    },
+    {
+      "path": "assets/isc-simbolo-ouro-web.png",
+      "mode": "100644",
+      "git_blob": "7be41f9f2c2614bd9a111e1142c1791a10d6399e",
+      "sha256": "997c6ec2b92f866e5331d40bedb875d5cd0a22e63c0b906f3e9beb10f9cbd0bf",
+      "bytes": 137609
+    },
+    {
+      "path": "assets/isc-simbolo-ouro.png",
+      "mode": "100644",
+      "git_blob": "b7817bcad63264d2707a5d38028289cc50a12c30",
+      "sha256": "6dae7631f97f8494e749987bc4c854d7cdcf5e146483b8391efd95d86aae94aa",
+      "bytes": 488600
+    },
+    {
+      "path": "assets/isc-simbolo-ouro.svg",
+      "mode": "100644",
+      "git_blob": "51237a18ec32477d50ea50132b9645111d2e5579",
+      "sha256": "d40646cce99c87ffbb16cbf26c42fa62a8e138e3b30c6827702b66712adf940d",
+      "bytes": 72366
+    },
+    {
+      "path": "assets/isc-simbolo-preto-web.png",
+      "mode": "100644",
+      "git_blob": "abec42939dea9a06bf11cbbd1ec87745be937ab1",
+      "sha256": "f5507cb73e97692d4484ab334da2e4ab2c156d1cf86eb345b7072e7f0d975b85",
+      "bytes": 50852
+    },
+    {
+      "path": "assets/isc-simbolo-preto.png",
+      "mode": "100644",
+      "git_blob": "e51eaf30b85ffa96906d954480c9c54eaeeeff83",
+      "sha256": "3c5cdc0e4c40fc7138854efb05169236e0fe7c586c473d7605ccd00aa53c4041",
+      "bytes": 145375
+    },
+    {
+      "path": "assets/isc-simbolo-preto.svg",
+      "mode": "100644",
+      "git_blob": "a47e02c437fcf73d589e87702fb24b09bddbfdd9",
+      "sha256": "1bbb4eeb46f8baa3eb0eb2c05b987987f547cac641c928986b3147023787b38b",
+      "bytes": 15335
+    },
+    {
+      "path": "assets/isc-vertical-branco-web.png",
+      "mode": "100644",
+      "git_blob": "10ec39f9171d2d3ed97ccc51e6b793466e1a7b68",
+      "sha256": "00354bc202747fc65476b1a159696065cc9a64189de0bf0ac3d6dbf1f0024bca",
+      "bytes": 53258
+    },
+    {
+      "path": "assets/isc-vertical-branco.png",
+      "mode": "100644",
+      "git_blob": "10a5016c36db05564e266de4d98650f75aaad435",
+      "sha256": "be19760d7f5857e527efaf9015007706a19545b04151d43228ba65a1acc65327",
+      "bytes": 156751
+    },
+    {
+      "path": "assets/isc-vertical-branco.svg",
+      "mode": "100644",
+      "git_blob": "efb7d77334555d39ead5ab525c962b1c0633e838",
+      "sha256": "5fbc4290793d3f6ed27b15b7b395609a9ea9216414c6490258d0e5e6d8ed7d1a",
+      "bytes": 30552
+    },
+    {
+      "path": "assets/isc-vertical-ouro-chapado-web.png",
+      "mode": "100644",
+      "git_blob": "78340101788e73320c211e0644732bff2146f640",
+      "sha256": "0fe17e174c6a5eb61af404ede845e733aaee63bb8920950cab8235101325bb25",
+      "bytes": 71397
+    },
+    {
+      "path": "assets/isc-vertical-ouro-chapado.png",
+      "mode": "100644",
+      "git_blob": "87bc674e2e8972fb2f0afa0791822b537a380ce5",
+      "sha256": "a94532d5d54a4976627c18f84b02b51d72e6c8f447e0a3764019b455e5f90043",
+      "bytes": 200685
+    },
+    {
+      "path": "assets/isc-vertical-ouro-chapado.svg",
+      "mode": "100644",
+      "git_blob": "f683f4cb49b5a8fbf6a8bd3a5bcaab781ab48f11",
+      "sha256": "25b7a5f1aad7c2aa0552a49b393b3654ebf69dfb0b500fc7423c0f09533d84ed",
+      "bytes": 30552
+    },
+    {
+      "path": "assets/isc-vertical-ouro-web.png",
+      "mode": "100644",
+      "git_blob": "a90fabb355ac1ea967fefd978dde212a5e78d93c",
+      "sha256": "64f9e16249da504344ad6014997450d37299ad1a94fdc44ed3306b96c46da4b2",
+      "bytes": 134365
+    },
+    {
+      "path": "assets/isc-vertical-ouro.png",
+      "mode": "100644",
+      "git_blob": "f8c80c2816097ca8df32ab420c2d0e229709a943",
+      "sha256": "ecd43702de77dfc7eb6040d89e963cbcbbb1afd7ebd6f248ded973644f1cbc50",
+      "bytes": 457597
+    },
+    {
+      "path": "assets/isc-vertical-ouro.svg",
+      "mode": "100644",
+      "git_blob": "e26b888821058bafecb305adfadfd154553c2189",
+      "sha256": "6068d9635ba6c29236e0695e4297d715285cba825a31318ef7c3c97c4d9e1c9c",
+      "bytes": 154157
+    },
+    {
+      "path": "assets/isc-vertical-preto-web.png",
+      "mode": "100644",
+      "git_blob": "2d93c4ffee0e4216e0138e83782df4a75f292933",
+      "sha256": "980b026deb5a29ac7a277a0ec75200c2aff921fe68c7a10a1e6dd462c7579f4f",
+      "bytes": 69736
+    },
+    {
+      "path": "assets/isc-vertical-preto.png",
+      "mode": "100644",
+      "git_blob": "ed5566b94b7d3275ac9fe125159bb995d708f3b2",
+      "sha256": "e4f0febb8a84ea5cdd226b7fa48fa5f7d9db5174350f38d99203ed328d018175",
+      "bytes": 194977
+    },
+    {
+      "path": "assets/isc-vertical-preto.svg",
+      "mode": "100644",
+      "git_blob": "361e0af311728fe5104e80db4519fdbe6d191001",
+      "sha256": "4b5117a8e2bbd1b429a870185c7c72b5dc097c297a36432638a4aaf3b828fcb5",
+      "bytes": 30552
+    },
+    {
+      "path": "assets/referencia-original/estudo-avatar-preto-ouro-2026-09-24.png",
+      "mode": "100644",
+      "git_blob": "ba6acf970cc6ac3871e24ac64abd87759af4226f",
+      "sha256": "3dda766ad23d23c84c785a7b0251ead88b9115e41cf96c9d77019ad3f30f032e",
+      "bytes": 671354
+    },
+    {
+      "path": "assets/referencia-original/isc-instituto-fundo-branco.jpg",
+      "mode": "100644",
+      "git_blob": "86e9b38925a95498a110be309cd530b1941f198d",
+      "sha256": "1a23774b7812705d4ff77804728863d023ba504461ef85f5d817068d707a1b39",
+      "bytes": 340985
+    },
+    {
+      "path": "assets/referencia-original/isc-instituto-fundo-preto.jpg",
+      "mode": "100644",
+      "git_blob": "c46e8089b543935d71fbfe058e19e9d2916b8f79",
+      "sha256": "427d4c64b4dfb46c3b4231e8d2bc2f11062f917e127a50c4766c20c0f3f450fa",
+      "bytes": 464194
+    },
+    {
+      "path": "assets/referencia-original/isc-instituto-oficial.cdr",
+      "mode": "100644",
+      "git_blob": "8858c3cf84fc49bbfd2ea8c9e66d82e832f8855a",
+      "sha256": "e35d5da6d0009af9e7c7a9be54e15b792763b8463460c20840583a8a23041034",
+      "bytes": 689269
+    },
+    {
+      "path": "assets/referencia-original/isc-instituto-oficial.pdf",
+      "mode": "100644",
+      "git_blob": "4056321213c4ac975d6d09e1f5dc33686825c9c7",
+      "sha256": "dce992669a6d3ec0c67a2169f92d5b8f6f51cb3c36170a6020df4b3137f17846",
+      "bytes": 423145
+    },
+    {
+      "path": "assets/referencia-original/isc-logo-antigo-sharbo-casagrande.jpg",
+      "mode": "100644",
+      "git_blob": "a4758b5d616432ec9643004d0c4cbe8855f9bfbf",
+      "sha256": "27ac16e8db6b907031b93da2b9108c9e68a8e0d00afb3cbe74a876af215739db",
+      "bytes": 37758
+    },
+    {
+      "path": "autocontido.py",
+      "mode": "100644",
+      "git_blob": "23b78bbbb4af2748f23407aa093eebb5087be88a",
+      "sha256": "38b4e7ec6646185c94f1d8ef730b847b72e3b83c7644ff2d9ce55d60ab7b6853",
+      "bytes": 9478
+    },
+    {
+      "path": "brand-book.html",
+      "mode": "100644",
+      "git_blob": "90b9b0a8aae62b561382a24a2e6da29ba4af3a00",
+      "sha256": "b7a0035e28d34a0c45a110a43a56be9596dadb59af1c8e57375aacdfe8f464c3",
+      "bytes": 1419118
+    },
+    {
+      "path": "deck-template.html",
+      "mode": "100644",
+      "git_blob": "8bed967c759998881bddc05995f56a0eb58f7e43",
+      "sha256": "601240363fc86a00aa22b9286f8e4123526a6483eb51423779dcc2b878e4a59f",
+      "bytes": 68541
+    },
+    {
+      "path": "dist/apresentacao-isc.html",
+      "mode": "100644",
+      "git_blob": "cc2e2e2db4de71b2c5ec229187440118aec06ab6",
+      "sha256": "3f8ec93b92c5ead848634e0f5fccccc36dbb27c175f5331c98cd1f28e5a548b1",
+      "bytes": 1801107
+    },
+    {
+      "path": "dist/assinaturas-isc.html",
+      "mode": "100644",
+      "git_blob": "9b26227b1ac71514591120532b26d70c08abd61f",
+      "sha256": "bd26a16ce5adc1044f65a18ced5a158bdf259acd56c10abfb35e98d12b4abac4",
+      "bytes": 1692939
+    },
+    {
+      "path": "dist/brand-book-isc.html",
+      "mode": "100644",
+      "git_blob": "f0b20cf22ff192f87ef4bffc7ede7c36050ca3f5",
+      "sha256": "84f5877444b4330bd56ac19498f3a4c640cd6e942b0397de38478e237610f072",
+      "bytes": 12077772
+    },
+    {
+      "path": "exportar_pdf.py",
+      "mode": "100644",
+      "git_blob": "b6f6e92202acb3778756f25c95d0ed0638387e8e",
+      "sha256": "4b6621785c17466f4e3cdb4eada9cdb457952d2d259b2b2e371591d19f2c59b4",
+      "bytes": 3481
+    },
+    {
+      "path": "iforms.js",
+      "mode": "100644",
+      "git_blob": "490a5922c3bb6fd47a4aa8c03bdc579db49283c4",
+      "sha256": "6ff49feba40102f2fe00295d9347623397f9af7a8367b88eb75c393c75329e8a",
+      "bytes": 25894
+    },
+    {
+      "path": "index.html",
+      "mode": "100644",
+      "git_blob": "c4af8dd07fee551a6a3b2f7ae7db3f62be0be503",
+      "sha256": "deab74f65498b5a1fe350445e2600ab84e300d084c1ed1ab170827a8785bf2c6",
+      "bytes": 639
+    },
+    {
+      "path": "iviz.js",
+      "mode": "100644",
+      "git_blob": "5a882002f868bff7241435dbd6df14770d71cafa",
+      "sha256": "d16b695415f36ec466dfb7b6c79cf9e15caccf02fad623c71cab3f98e9163151",
+      "bytes": 46176
+    },
+    {
+      "path": "lockup.html",
+      "mode": "100644",
+      "git_blob": "14314f57d8615c04d87a74e3349df4508d3a3d27",
+      "sha256": "a790582caa91158ef68aa1303149357d441101b8f64e48747c0eda8b8f974fee",
+      "bytes": 325780
+    },
+    {
+      "path": "tools/empacotar_skill.py",
+      "mode": "100644",
+      "git_blob": "b9829310a574c446f64fc7a72f1f791a62f8396f",
+      "sha256": "a180156bb5a6c8ae740c7e4d06622c2e649c88036d3f166747574d0f21745bf5",
+      "bytes": 7679
+    }
+  ],
+  "scope": "Cópia exata original no commit/tag; hospedagem posterior altera só dependências e instruções de distribuição."
+}

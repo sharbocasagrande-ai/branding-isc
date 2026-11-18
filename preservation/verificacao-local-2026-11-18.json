@@ -1,0 +1,26 @@
+{
+  "desktop": {
+    "title": "Brand Book Instituto ISC",
+    "sections": 24,
+    "images": 296,
+    "brokenImages": [],
+    "fonts": [
+      true,
+      true,
+      true
+    ],
+    "scrollWidth": 1440,
+    "viewport": 1440
+  },
+  "mobile": {
+    "scrollWidth": 390,
+    "viewport": 390,
+    "sections": 24
+  },
+  "desktopPixelsIdentical": true,
+  "baselineSha256": "09147c9f789183afd8f9934d0b9b4c3df5282412dce22cc79797ec33bff02af3",
+  "copySha256": "09147c9f789183afd8f9934d0b9b4c3df5282412dce22cc79797ec33bff02af3",
+  "brokenResponses": [],
+  "pageErrors": [],
+  "externalRequests": []
+}

@@ -1,5 +1,7 @@
 # branding-isc · a identidade visual do Instituto ISC como skill
 
+> **Cópia administrada por SHARBO CASAGRANDE.** Manual, recursos, fontes e pacote de instalação hospedados na conta `sharbocasagrande-ai`. Conteúdo e créditos originais preservados; detalhes da preservação em [AUTONOMIA.md](AUTONOMIA.md).
+
 **O que é:** a identidade visual do **Instituto ISC · Health & Aesthetics** (Curitiba) e do **Dr. Sharbo Casagrande**, empacotada como uma *skill*. Uma skill é um pacote de instruções e arquivos que o assistente de IA (Claude, Codex ou ChatGPT) carrega sozinho quando o pedido combina com ela.
 
 **O que muda depois de instalar:** você pede o material em português, como pediria a um designer, e ele já sai **no padrão do ISC**. Isso vale para post, carrossel, story, reels, status de WhatsApp, site, proposta, receituário, apresentação, e-mail e impresso, com cor, fontes, marca e tom certos e com as regras de publicidade médica do CFM. Não é preciso explicar nada disso de novo a cada conversa.
@@ -8,9 +10,9 @@
 > "Monta um story no padrão do ISC chamando para agendar a avaliação."
 > "Cria uma apresentação de 8 slides do Instituto para uma parceria."
 
-**Ver o manual da marca sem instalar nada:** [rafaelnasch.github.io/branding-isc](https://rafaelnasch.github.io/branding-isc/) (abre em qualquer aparelho).
+**Ver o manual da marca sem instalar nada:** [sharbocasagrande-ai.github.io/branding-isc](https://sharbocasagrande-ai.github.io/branding-isc/) (abre em qualquer aparelho).
 
-**Baixar o pacote de instalação (ZIP):** [branding-isc.zip](https://github.com/rafaelnasch/branding-isc/releases/latest/download/branding-isc.zip). O link entrega sempre a versão mais recente.
+**Baixar o pacote de instalação (ZIP):** [branding-isc.zip](https://sharbocasagrande-ai.github.io/branding-isc/downloads/branding-isc.zip). O link entrega sempre a versão mais recente.
 
 ---
 
@@ -43,7 +45,7 @@
 | **Codex** (app, CLI ou extensão de IDE) | [Seção 4](#4-instalar-no-codex): um comando | Git instalado | 1 minuto |
 | **ChatGPT** | [Seção 5](#5-chatgpt) | Depende do que a sua conta libera | Leia a seção |
 
-**Regra de ouro para o ZIP:** use sempre o link de download acima ou a página de [Releases](https://github.com/rafaelnasch/branding-isc/releases/latest). **Nunca** use o botão verde "Code > Download ZIP" do GitHub. Esse botão baixa o repositório inteiro, com a pasta chamada `branding-isc-main`, e a skill sobe com o nome errado ou grande demais.
+**Regra de ouro para o ZIP:** use sempre o link de download acima ou a página de [Downloads](https://sharbocasagrande-ai.github.io/branding-isc/downloads/). **Nunca** use o botão verde "Code > Download ZIP" do GitHub. Esse botão baixa o repositório inteiro, com a pasta chamada `branding-isc-main`, e a skill sobe com o nome errado ou grande demais.
 
 ---
 
@@ -59,7 +61,7 @@ Faça uma vez, no computador. Depois disso a skill fica na sua conta.
 > Em conta **Team** ou **Enterprise**, quem administra a organização precisa ter liberado skills e execução de código. Se a opção não aparecer, peça ao administrador.
 
 **Passo 2 · Baixe o pacote**
-- Clique em [branding-isc.zip](https://github.com/rafaelnasch/branding-isc/releases/latest/download/branding-isc.zip). Ele tem cerca de 6 MB.
+- Clique em [branding-isc.zip](https://sharbocasagrande-ai.github.io/branding-isc/downloads/branding-isc.zip). Ele tem cerca de 6 MB.
 - **Não descompacte.** O Claude recebe o ZIP do jeito que ele veio.
 
 **Passo 3 · Envie a skill**
@@ -80,7 +82,7 @@ Faça uma vez, no computador. Depois disso a skill fica na sua conta.
 Abra o terminal e rode:
 
 ```bash
-git clone https://github.com/rafaelnasch/branding-isc.git ~/.claude/skills/branding-isc
+git clone https://github.com/sharbocasagrande-ai/branding-isc.git ~/.claude/skills/branding-isc
 ```
 
 1. Abra uma sessão **nova** do Claude Code.
@@ -97,7 +99,7 @@ No Claude Code o ambiente é completo: a skill grava os arquivos no seu computad
 Abra o terminal e rode:
 
 ```bash
-git clone https://github.com/rafaelnasch/branding-isc.git ~/.agents/skills/branding-isc
+git clone https://github.com/sharbocasagrande-ai/branding-isc.git ~/.agents/skills/branding-isc
 ```
 
 1. Reinicie o Codex (app, CLI ou extensão de IDE).
@@ -114,7 +116,7 @@ O ChatGPT usa o mesmo formato de skill (pasta com `SKILL.md`), e este pacote já
 
 **O envio de uma skill avulsa pelo ChatGPT web ainda não está documentado pela OpenAI** (consulta de 07/10/2026). Hoje a documentação oficial descreve skills no **Codex** e skills que chegam ao ChatGPT por meio de *plugins*.
 
-- Se o seu ChatGPT mostra **Skills** na barra lateral com a opção de **criar ou enviar** uma skill, envie o mesmo [branding-isc.zip](https://github.com/rafaelnasch/branding-isc/releases/latest/download/branding-isc.zip), sem descompactar. Depois, chame a skill digitando `@` e escolhendo `branding-isc`.
+- Se o seu ChatGPT mostra **Skills** na barra lateral com a opção de **criar ou enviar** uma skill, envie o mesmo [branding-isc.zip](https://sharbocasagrande-ai.github.io/branding-isc/downloads/branding-isc.zip), sem descompactar. Depois, chame a skill digitando `@` e escolhendo `branding-isc`.
 - Se essa opção não aparece na sua conta, use o **claude.ai** ([seção 2](#2-instalar-no-claude-pelo-navegador-claudeai)) ou o **Codex** ([seção 4](#4-instalar-no-codex)), que funcionam hoje.
 
 ---
@@ -222,18 +224,18 @@ Um bom pedido tem quatro partes:
 
 **A marca:** o logotipo nunca é redesenhado, redigitado, recolorido fora das versões, esticado ou com sombra. É sempre um arquivo de `assets/`. Fundo preto pede a versão em ouro metálico; fundo claro, a preta; foto escura, a branca; bordado e gravação, o ouro chapado. Abaixo de 72 px, entra só o símbolo.
 
-O detalhe completo está no `SKILL.md` e no [manual](https://rafaelnasch.github.io/branding-isc/). Este guia não substitui assessoria jurídica.
+O detalhe completo está no `SKILL.md` e no [manual](https://sharbocasagrande-ai.github.io/branding-isc/). Este guia não substitui assessoria jurídica.
 
 ---
 
 ## 11. Atualizar, compartilhar com a equipe e remover
 
 **Atualizar**
-- **claude.ai e ChatGPT:** baixe o [ZIP mais recente](https://github.com/rafaelnasch/branding-isc/releases/latest/download/branding-isc.zip), apague a skill antiga (passos abaixo) e envie a nova.
+- **claude.ai e ChatGPT:** baixe o [ZIP mais recente](https://sharbocasagrande-ai.github.io/branding-isc/downloads/branding-isc.zip), apague a skill antiga (passos abaixo) e envie a nova.
 - **Claude Code:** `cd ~/.claude/skills/branding-isc && git pull`
 - **Codex:** `cd ~/.agents/skills/branding-isc && git pull`
 
-As novidades de cada versão ficam na página de [Releases](https://github.com/rafaelnasch/branding-isc/releases).
+As novidades de cada versão ficam na página de [Downloads](https://sharbocasagrande-ai.github.io/branding-isc/downloads/).
 
 **Compartilhar com a equipe (claude.ai)**
 - Em **Personalizar > Skills**, clique em **...** ao lado da skill > **Compartilhar** e informe nome ou e-mail. Quem recebe pode ligar e usar a skill, mas não pode editar.
@@ -250,7 +252,7 @@ As novidades de cada versão ficam na página de [Releases](https://github.com/r
 
 | O que aconteceu | Causa provável | O que fazer |
 |---|---|---|
-| O envio do ZIP dá erro de **tamanho** | Você baixou pelo botão "Code > Download ZIP" (repositório inteiro) | Baixe o [branding-isc.zip](https://github.com/rafaelnasch/branding-isc/releases/latest/download/branding-isc.zip) do Releases, de cerca de 6 MB |
+| O envio do ZIP dá erro de **tamanho** | Você baixou pelo botão "Code > Download ZIP" (repositório inteiro) | Baixe o [branding-isc.zip](https://sharbocasagrande-ai.github.io/branding-isc/downloads/branding-isc.zip) de Downloads, de cerca de 6 MB |
 | Erro de **nome da pasta** ou falta de `SKILL.md` | ZIP descompactado e compactado de novo, ou pasta renomeada | Envie o ZIP original, sem mexer. A pasta de dentro tem de se chamar `branding-isc` |
 | A opção **Skills** não aparece no claude.ai | Execução de código desligada, ou bloqueio da organização | Ligue em Configurações > Capacidades; em Team/Enterprise, fale com o administrador |
 | O resultado sai **genérico** | A skill está desligada, ou a conversa foi aberta antes da instalação | Confira a chave em Personalizar > Skills, abra uma **conversa nova** e cite "padrão do ISC" no pedido |
@@ -277,7 +279,7 @@ As novidades de cada versão ficam na página de [Releases](https://github.com/r
 | `assets/` | Marca (horizontal, vertical, símbolo, avatar, favicon; em ouro, preto, branco e ouro chapado), fotos reais, formas, gráficos, destaques, ícones, fontes e o arquivo original do designer. |
 | `tools/empacotar_skill.py` | Gera o ZIP de instalação dentro dos limites (ver a seção 15). |
 
-**O que fica fora do ZIP** e continua no [endereço público do manual](https://rafaelnasch.github.io/branding-isc/): o arquivo original do designer, as PNG da marca em resolução de impressão, os ícones em PNG, as capturas do manual e o `dist/`. Dentro do pacote, o manual aponta para esses endereços. Para impressão em gráfica, baixe a PNG grande ou o arquivo original pelo repositório.
+**O que fica fora do ZIP** e continua no [endereço público do manual](https://sharbocasagrande-ai.github.io/branding-isc/): o arquivo original do designer, as PNG da marca em resolução de impressão, os ícones em PNG, as capturas do manual e o `dist/`. Dentro do pacote, o manual aponta para esses endereços. Para impressão em gráfica, baixe a PNG grande ou o arquivo original pelo repositório.
 
 ---
 

@@ -19,16 +19,16 @@ Palavras-guia: sóbrio, preciso, acolhedor, médico, de alto padrão. Nunca: gri
 |---|---|---|
 | **Claude Code** (terminal, VS Code, app de desktop) | `~/.claude/skills/branding-isc` (clone do repositório) | Nada. Ambiente completo: escreve arquivo, usa `assets/`, exporta PDF. |
 | **Codex** (CLI, IDE, app) | `~/.agents/skills/branding-isc` (versões antigas: `~/.codex/skills/`) | Nada. `agents/openai.yaml` dá o nome e a descrição da lista de skills. |
-| **claude.ai** (navegador e celular) | Personalizar > Skills > + > Enviar uma skill: o `branding-isc.zip` do Releases (execução de código ligada) | **O artefato é um arquivo só: não enxerga `assets/` nem os `.js`.** |
+| **claude.ai** (navegador e celular) | Personalizar > Skills > + > Enviar uma skill: o `branding-isc.zip` da pasta downloads do manual (execução de código ligada) | **O artefato é um arquivo só: não enxerga `assets/` nem os `.js`.** |
 | **ChatGPT** | Skills do app, onde a conta liberar o envio: o mesmo `branding-isc.zip` | Igual ao claude.ai: material em arquivo único. |
 
-**O que o ZIP leva e o que fica no site do manual.** O pacote traz tudo o que a skill usa para produzir (marca em SVG e PNG web, favicon, avatar, fotos reais, formas, gráficos, destaques, ícones em SVG, fontes, motores e modelos). Ficam só no endereço público `https://rafaelnasch.github.io/branding-isc/`: o arquivo original do designer (`assets/referencia-original/`), as PNG da marca em resolução de impressão, os ícones em PNG, as capturas do manual e as versões autocontidas do `dist/`. Para impressão, baixe a PNG grande de lá.
+**O que o ZIP leva e o que fica no site do manual.** O pacote traz tudo o que a skill usa para produzir (marca em SVG e PNG web, favicon, avatar, fotos reais, formas, gráficos, destaques, ícones em SVG, fontes, motores e modelos). Ficam só no endereço público `https://sharbocasagrande-ai.github.io/branding-isc/`: o arquivo original do designer (`assets/referencia-original/`), as PNG da marca em resolução de impressão, os ícones em PNG, as capturas do manual e as versões autocontidas do `dist/`. Para impressão, baixe a PNG grande de lá.
 
 **REGRA DO NAVEGADOR (claude.ai):** todo HTML gerado ali é **autocontido**.
 1. **Marca:** use os blocos em **data URI** do [`lockup.html`](lockup.html) (bloco 04, ouro; bloco 05, preta; bloco 06, símbolo). Copie o `src` inteiro; nunca digite, resuma ou reconstrua um data URI.
 2. **Fotos:** gere o data URI por código a partir do arquivo de `assets/fotos/`, sem alterar a imagem.
 3. **Motores:** cole `iviz.js` e `iforms.js` dentro de um `<script>` do próprio arquivo.
-4. **Fontes:** continuam pelo link do Google Fonts.
+4. **Fontes:** use a cópia local em `assets/fontes/isc-fontes.css`; para arquivo único, embuta o CSS.
 5. **PDF:** entregue o HTML e mande imprimir pelo Chrome (seção "Exportar PDF").
 
 **Para ENVIAR um HTML a alguém**, use sempre a versão autocontida: `python3 autocontido.py <arquivo.html>` grava em `dist/` com imagens, fontes e motores embutidos. As versões prontas do brand book, da apresentação e das assinaturas estão em `dist/` no repositório e no endereço público (fora do ZIP).
@@ -66,7 +66,7 @@ O sistema **não tem modo escuro automático**: preto e marfim são escolha edit
 ## Tipografia (TRAVADA)
 
 ```html
-<link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=EB+Garamond:ital,wght@1,400;1,500&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="assets/fontes/isc-fontes.css" rel="stylesheet">
 ```
 
 | Papel | Fonte | Regras |
